@@ -4,9 +4,9 @@ import 'es6-promise/auto'
 import Vue from 'vue'
 import App from './App'
 import router from '../../router/twopage'
-import ald from '../../../static/common/aladdin.ibank.min'
+// import ald from '../../../static/common/aladdin.ibank.min'
 
-window.aladdin = ald
+// window.aladdin = ald
 
 Vue.config.productionTip = false
 
