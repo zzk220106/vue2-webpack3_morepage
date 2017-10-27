@@ -1,0 +1,4861 @@
+[
+  {
+    "url": "/rest/mock/ssoLogin",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "userStatus": "0"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/getSessionStatus",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "userStatus": "0"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/isClientNoNormal",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "userStatus": "0"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/transactionApplication",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "FailReason": "失败",
+        "OrderId": "成功"
+      }
+    }
+  },
+  {
+    "url":"/rest/pabank/creditcard/slh/uptPinOptionFlag",
+    "method":"post",
+    "response":{
+      "code":"0",
+      "message":"xxxx"
+    }
+  },
+  {
+    "url": "/rest/pabank/setTPwdTwo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试"
+    }
+  },
+  {
+    "method":"post",
+    "url":"/rest/pabank/creditcard/slh/uptPinOptionFlag",
+    "response":{
+      "message":"成功",
+      "code":"0"
+    }
+
+  },
+  {
+    "url": "/rest/pabank/creditcard/setQPwdTwo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试"
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getFreeRateAndCardListInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "validMoney": "30000",
+        "instList": [
+          {
+            "instNum": "3",
+            "feeRate": "0.03",
+            "originalDiscFeeRate": "0.0111",
+            "perPoundage": "1030",
+            "totalPoundage": "200",
+            "perAmt": "10266.00",
+            "firstAmt": "6510.00",
+            "discountType": "D",
+            "instFeeDscnt": "0.81",
+            "waiveFeeAmt": "300",
+            "perAmtDetail": [1,3,1,5]
+          },
+          {
+            "instNum": "6",
+            "feeRate": "0.04",
+            "originalDiscFeeRate": "0.034",
+            "perPoundage": "1010",
+            "totalPoundage": "200",
+            "perAmt": "5201.00",
+            "firstAmt": "4102.00",
+            "discountType": "P",
+            "instFeeDscnt": "0.81",
+            "waiveFeeAmt": "300",
+            "perAmtDetail": [1,3,1,5]
+          },
+          {
+            "instNum": "12",
+            "feeRate": "0.07",
+            "originalDiscFeeRate": "0.1",
+            "perPoundage": "1020",
+            "totalPoundage": "200",
+            "perAmt": "2289.00",
+            "firstAmt": "2000.00",
+            "discountType": "D",
+            "instFeeDscnt": "0.81",
+            "waiveFeeAmt": "300",
+            "perAmtDetail": [1,3,1,5]
+          },
+          {
+            "instNum": "24",
+            "feeRate": "0.09",
+            "originalDiscFeeRate": "0.0909",
+            "perPoundage": "1030",
+            "totalPoundage": "2100",
+            "perAmt": "1400.00",
+            "firstAmt": "1549.00",
+            "discountType": null,
+            "instFeeDscnt": "0.81",
+            "waiveFeeAmt": "300",
+            "perAmtDetail": [1,3,1,5]
+          }
+        ],
+        "cardList": [
+          {
+            "cardNo": "6446********4461",
+            "cardIndex": "1"
+          },
+          {
+            "cardNo": "6446********4442",
+            "cardIndex": "2"
+          },
+          {
+            "cardNo": "6446********4463",
+            "cardIndex": "3"
+          },
+          {
+            "cardNo": "6446********4464",
+            "cardIndex": "4"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/checkBeiYongJinRight",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "applyExplan": "EF01",
+        "applyStatus": "Y"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/setSANPCardInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/user/checkGesturePwdChannel",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "randomNum": "235575666",
+        "val": "shahahhshah",
+        "sign": "hshsbbssbsbsb",
+        "timestamp": "13554846464"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/user/login/hasToaEbank",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "hasLogin": "1"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/getSANPCardList",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "sanpCardList": [
+          {
+            "cardNo": "4728********1938",
+            "status": "1",
+            "cardIndex": "1546484848709",
+            "amountCurrent": "300",
+            "amountMax": "500"
+          },
+          {
+            "cardNo": "4728********1938",
+            "status": "1",
+            "cardIndex": "1546484848709",
+            "amountCurrent": "300",
+            "amountMax": "500"
+          },
+          {
+            "cardNo": "4728********1938",
+            "status": "1",
+            "cardIndex": "1546484848709",
+            "amountCurrent": "300",
+            "amountMax": "500"
+          },
+          {
+            "cardNo": "4728********1938",
+            "status": "1",
+            "cardIndex": "1546484848709",
+            "amountCurrent": "300",
+            "amountMax": "500"
+          },
+          {
+            "cardNo": "4728********1121",
+            "status": "0",
+            "cardIndex": "1082892982",
+            "amountCurrent": "100",
+            "amountMax": "500"
+          },
+          {
+            "cardNo": "4728********1243",
+            "status": "1",
+            "cardIndex": "1281828821",
+            "amountCurrent": "200",
+            "amountMax": "500"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/user/login/toaEbank",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/login/hasToaEbank",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "hasLogin": "0"
+      }
+    }
+  },
+  {
+    "url": "/rest/dfg",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "dggh": "fgghh"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/dataQA",
+    "method": "get",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "questions": [
+          {
+            "question": "信用卡地址信息介绍",
+            "answer": "1、账单地址是账单、卡片或您参与各类活动邮寄礼品时寄送的的地址。\n2、家庭地址是您现在的住宅地址，如燃气意外保险理赔时家庭地址就是保险指定地址，所以家庭地址是个人的一个重要信息。\n3、公司地址是您的单位地址。温馨提示：后续如需修改地址，可以直接点击这里（需求：点击可以链接到app native 的地址信息）修改"
+          },
+          {
+            "question": "家庭/单位地址可以作为账单地址吗",
+            "answer": "可以哦。如您需要变更可在完成地址信息登记后，点击下方”设为统一账址“，并在弹出的对话框中进行确认。"
+          },
+          {
+            "question": "卡片寄出后，再改地址有用吗",
+            "answer": "您再修改账单地址，卡片仍按旧地址寄送哦！如果您的邮寄地址已经变动更改，点击这里（需求：点击可以链接到app native 的人工客服）联系人工客服，客服专员会协助您处理。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/queryCustData",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "",
+      "body": {
+        "billAddress": {
+          "province_city_country": "上海市浦东新区",
+          "detailAddress": "上丰路中国平安4号门",
+          "postcode": "200210"
+        },
+        "homeAddress": {
+          "province_city_country": "江苏省南京市雨花台区",
+          "detailAddress": "上丰路中国平安4号门",
+          "postcode": "200210",
+          "zoneCode": "010",
+          "telphone": "4460246",
+          "fenjihao": "6255"
+        },
+        "companyAddress": {
+          "company": "单位名称",
+          "province_city_country": "江苏省常州市武进区",
+          "detailAddress": "上丰路中国平安4号门",
+          "postcode": "200210",
+          "zoneCode": "010",
+          "telphone": "4460246",
+          "fenjihao": "635225"
+        },
+        "mobilePhone": "13262663930",
+        "email": "3995152@qq.com"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/setCustData",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "",
+      "body": {
+        "billAddress": {
+          "province_city_country": "江苏省常州市武进区",
+          "detailAddress": "上丰路中国平安4号门",
+          "postcode": "200210"
+        },
+        "homeAddress": {
+          "province_city_country": "江苏省常州市武进区",
+          "detailAddress": "上丰路中国平安4号门",
+          "postcode": "200210",
+          "telphone": "13846912345"
+        },
+        "companyAddress": {
+          "company": "单位名称",
+          "province_city_country": "江苏省常州市武进区",
+          "detailAddress": "上丰路中国平安4号门",
+          "postcode": "200210",
+          "zoneCode": "010",
+          "telphone": "4460246",
+          "fenjihao": "635225"
+        }
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getDataImg",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "",
+      "body": {
+        "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/adServiceImages/d656f18f-0358-4337-b03c-d65a6ef38598.jpg",
+        "linkUrl": "https://www.baidu.com"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/checkCardInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/activateCardHasNotBind",
+    "method": "post",
+    "作用": "卡激活",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "rmbNetPayFlg": "Y",
+        "rmbSnglTxnAmt": "100",
+        "rmbNetDailyAmt": "500",
+        "rmbCreditLimit": "2000",
+        "usdNetPayFlg": "Y",
+        "usdSnglTxnAmt": "1000",
+        "usdNetDailyAmt": "5000",
+        "usdCreditLimit": "20000",
+        "isBind": "Y",
+        "needSetLimit": "Y",
+        "hasTradePwd": "Y",
+        "pwdReqKey": "Y",
+        "pinOptionFlag": "Y",
+        "isNeedCheckIdentity": "Y"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/getPdfTemplet",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "urlPdfTempletNo": "e65f068d12e04647a98b815e5a106c63"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/bisp/asynchCompare",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "成功",
+      "body": {
+        "compareId": "13123"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/bisp/getAsynchCompareResult",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "成功",
+      "body": {
+        "bispRsult": "Y"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/v12/activateCardHasBind",
+    "method": "post",
+    "作用": "卡激活withOtp",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "rmbNetPayFlg": "Y",
+        "rmbSnglTxnAmt": "1000",
+        "rmbNetDailyAmt": "5000",
+        "rmbCreditLimit": "20000",
+        "usdNetPayFlg": "N",
+        "usdSnglTxnAmt": "1000",
+        "usdNetDailyAmt": "5000",
+        "usdCreditLimit": "20000",
+        "isBind": "Y",
+        "needSetLimit": "N",
+        "hasTradePwd": "N",
+        "pwdReqKey": "Y",
+        "pinOptionFlag": "Y"
+      }
+    }
+  },
+  {
+    "url": "/rest/creditCardLogin/activatedCar",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/app/getCardInfos",
+    "method": "get",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {
+        "cardinfoList": [
+          {
+            "pwdFlag": "Y",
+            "cardNumber": "6546546451221321321",
+            "cardImg": "http://192.168.31.127:8080/pic/card/default2.jpg"
+          },
+          {
+            "pwdFlag": "N",
+            "cardNumber": "6546546451221321322",
+            "cardImg": "http://192.168.31.127:8080/pic/card/1000006.png"
+          },
+          {
+            "pwdFlag": "Y",
+            "cardNumber": "6546546451221321323",
+            "cardImg": "http://192.168.31.127:8080/pic/card/1000012.png"
+          },
+          {
+            "pwdFlag": "Y",
+            "cardNumber": "6546546451221321324",
+            "cardImg": "http://192.168.31.127:8080/pic/card/1000017.png"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/getTempAmount",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "maxTempAmount": "130000",
+        "expiryDate": "2016.05.12",
+        "startDate": "2016.05.12",
+        "minExpiryDate": "2016.10.05",
+        "maxExpiryDate": "2016.12.26"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/gt/pa",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "pava": "1460618373547"
+      }
+    }
+  },
+  {
+    "url": "/rest/creditCardLogin/checkCardInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/creditCardLogin/activatedCardHasBind",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/creditCardLogin/activatedCardHasNotBind",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/setTempAmount",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "availableLimit": "500000",
+        "cashLimit": "20000",
+        "limit": "30000",
+        "startDate": "2016.05.12",
+        "endDate": "2016.07.12"
+      }
+    }
+  },
+  {
+    "url": "/rest/reg/reg",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "everToken": "qDciglWEWiVN0mypXLVIZCb62iSh3Xeqx/4rSlNto4UtGcSzSu6TSQ==",
+        "cardBindStatus": "1",
+        "headUrl": "http://192.168.31.127:8080/pic/header/header.jpg",
+        "nickname": "ccms",
+        "ccmsNO": "7678",
+        "mobileNoWithStar": "138****0001",
+        "checkMobile": ""
+      }
+    }
+  },
+  {
+    "url": "/rest/user/checkQueryPwd",
+    "method": "get",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/code/getDynaReg",
+    "method": "post",
+    "response": {
+      "code": "0  ",
+      "message": "获取失败",
+      "body": {
+        "hasCard": "0",
+        "regStatus": "0"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/unbind",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取失败",
+      "body": {
+        "cardBindStatus": "2"
+      }
+    }
+  },
+  {
+    "url": "/rest/code/getDynaToaAddMob",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {
+        "hasCard": "1",
+        "regStatus": "1"
+      }
+    }
+  },
+  {
+    "url": "/rest/login/toaAddMobRegCheck",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getDyna",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/code/getDynaLogin",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {
+        "hasCard": "1"
+      }
+    }
+  },
+  {
+    "url": "/rest/code/getDynaPwd",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {
+        "hasCard": "1"
+      }
+    }
+  },
+  {
+    "url": "/rest/code/checkDyna",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "验证成功",
+      "body": {
+        "hasCard": "1"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/login/ccmsV4",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "登陆成功",
+      "body": {
+        "everToken": "qDciglWEWiVN0mypXLVIZCb62iSh3Xeqx/4rSlNto4UtGcSzSu6TSQ==",
+        "cardBindStatus": "1",
+        "headUrl": "http://192.168.31.127:808 0/pic/header/header.jpg",
+        "nickname": "ccms",
+        "ccmsNo": "7670",
+        "checkMobile": "13911111111",
+        "isChangeDevice": "0",
+        "mobileNoWithStar": "138****0001"
+      }
+    }
+  },
+  {
+    "url": "/rest/login/ccmsDyna",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "登陆成功",
+      "body": {
+        "everToken": "qDciglWEWiVN0mypXLVIZCb62iSh3Xeqx/4rSlNto4UtGcSzSu6TSQ==",
+        "cardBindStatus": "0",
+        "headUrl": "http://192.168.31.127:8080/pic/header/header.jpg",
+        "nickname": "ccms",
+        "ccmsNO": "7678"
+      }
+    }
+  },
+  {
+    "url": "/rest/login/toaAddMobLogin",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "登陆成功",
+      "body": {
+        "everToken": "qDciglWEWiVN0mypXLVIZCb62iSh3Xeqx/4rSlNto4UtGcSzSu6TSQ==",
+        "cardBindStatus": "1",
+        "headUrl": "http://192.168.31.127:8080/pic/header/header.jpg",
+        "nickname": "ccms",
+        "ccmsNO": "7678",
+        "isChangeDevice": "1"
+      }
+    }
+  },
+  {
+    "url": "/rest/login/toaAddMobRegPwd",
+    "method": "post",
+    "response": {
+      "code": "1",
+      "message": "登陆成功",
+      "body": {
+        "everToken": "qDciglWEWiVN0mypXLVIZCb62iSh3Xeqx/4rSlNto4UtGcSzSu6TSQ==",
+        "cardBindStatus": "1",
+        "headUrl": "http://192.168.31.127:8080/pic/header/header.jpg",
+        "nickname": "ccms",
+        "ccmsNO": "7678"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/forgetPassLogin",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "登陆成功",
+      "body": {
+        "everToken": "qDciglWEWiVN0mypXLVIZCb62iSh3Xeqx/4rSlNto4UtGcSzSu6TSQ==",
+        "cardBindStatus": "1",
+        "headUrl": "http://192.168.31.127:8080/pic/header/header.jpg",
+        "nickname": "ccms",
+        "ccmsNO": "7678"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/user/logout",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "退出成功",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/login/toa",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "登陆成功",
+      "body": {
+        "regStatus": "0",
+        "mobileBindStatus": "0",
+        "everToken": "qDciglWEWiVN0mypXLVIZCb62iSh3Xeqx/4rSlNto4UtGcSzSu6TSQ==",
+        "cardBindStatus": "1",
+        "headUrl": "http://192.168.31.127:8080/pic/header/header.jpg",
+        "nickname": "ccms",
+        "ccmsNO": "7678"
+      }
+    }
+  },
+  {
+    "url": "/rest/code/checkImg",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/pabank/login/updateSession",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "cardBindStatus": "1",
+        "headUrl": "http://192.168.31.127:8080/pic/header/header.jpg",
+        "nickname": "pais",
+        "ccmsNO": "7678"
+      }
+    }
+  },
+  {
+    "url": "/rest/login/logout",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/img/list",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "mainScreen": [
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/main/1.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "7"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/main/2.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "4"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/main/3.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "3"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/main/4.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "6"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/main/5.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "2"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/main/6.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "5"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/main/7.png",
+            "destUrl": "http://m.pingan.com/c2/xinyongka/huodong/jiayouhuodong.html?cid=ccms",
+            "position": "1"
+          }
+        ],
+        "topBanner": [
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/top/1.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "1"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/top/2.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "2"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/top/3.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "0"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/top/4.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "4"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/top/5.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "5"
+          },
+          {
+            "picUrl": "http://192.168.31.127:8080/pic/top/6.png",
+            "destUrl": "http://www.baidu.com",
+            "position": "6"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/message/listSame",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "hasMore": "0",
+        "messageList": [
+          {
+            "messageId": "1",
+            "title": "这是一个Html5的测试1,这是一个Html5的测试2这是一个Html5的测试2这是一个Html5的测试2这是一个Html5的测试2这是一个Html5的测试2",
+            "time": "2016-10-10",
+            "content": "",
+            "action": "html",
+            "messageType": "2",
+            "actionUrl": "https://www.baidu.com"
+          },
+          {
+            "messageId": "2",
+            "title": "这是一个Html5的测试2",
+            "time": "2016-10-10",
+            "content": "",
+            "action": "html",
+            "messageType": "2",
+            "actionUrl": "http://m.pingan.com"
+          },
+          {
+            "messageId": "3",
+            "title": "我的账单",
+            "time": "2016-10-10",
+            "action": "native",
+            "actionUrl": "",
+            "messageType": "0",
+            "content": {
+              "title": "您的01月个人信用卡账单信息",
+              "detailMessageList": [
+                {
+                  "type": "1",
+                  "key": "账单金额",
+                  "value": "￥1000.00"
+                },
+                {
+                  "type": "1",
+                  "key": "最低还款额",
+                  "value": "￥50.00"
+                },
+                {
+                  "type": "1",
+                  "key": "账单日期",
+                  "value": "01月03日"
+                },
+                {
+                  "type": "1",
+                  "key": "到期还款日",
+                  "value": "01月21日"
+                },
+                {
+                  "type": "2",
+                  "key": "",
+                  "value": "到期还款日到期还款日到期还款日到期还款日到期还款日"
+                }
+              ],
+              "warning": "口头索取手机动态吗行为都是咋骗，谨防假冒银行客服的电话。",
+              "buttonList": [
+                {
+                  "innerText": "账单明细",
+                  "actionUrl": "www.pingan.com"
+                },
+                {
+                  "innerText": "账单分期",
+                  "actionUrl": "www.pingan.com"
+                },
+                {
+                  "innerText": "立即还款",
+                  "actionUrl": "www.pingan.com"
+                }
+              ]
+            }
+          },
+          {
+            "messageId": "4",
+            "title": "我的账单",
+            "time": "2016-10-10",
+            "action": "native",
+            "actionUrl": "",
+            "messageType": "0",
+            "content": {
+              "title": "您的01月个人信用卡账单信息",
+              "detailMessageList": [
+                {
+                  "type": "1",
+                  "key": "账单金额",
+                  "value": "￥1000.00"
+                },
+                {
+                  "type": "1",
+                  "key": "最低还款额",
+                  "value": "￥50.00"
+                },
+                {
+                  "type": "1",
+                  "key": "账单日期",
+                  "value": "01月03日"
+                },
+                {
+                  "type": "1",
+                  "key": "到期还款日",
+                  "value": "01月21日"
+                },
+                {
+                  "type": "2",
+                  "key": "",
+                  "value": "到期还款日到期还款日到期还款日到期还款日到期还款日"
+                }
+              ],
+              "warning": "口头索取手机动态吗行为都是咋骗，谨防假冒银行客服的电话。",
+              "buttonList": [
+                {
+                  "innerText": "账单明细",
+                  "actionUrl": "www.pingan.com"
+                },
+                {
+                  "innerText": "账单分期",
+                  "actionUrl": "www.pingan.com"
+                },
+                {
+                  "innerText": "立即还款",
+                  "actionUrl": "www.pingan.com"
+                }
+              ]
+            }
+          },
+          {
+            "messageId": "5",
+            "title": "我的账单",
+            "time": "2016-10-10",
+            "action": "native",
+            "actionUrl": "",
+            "messageType": "0",
+            "content": {
+              "title": "您的01月个人信用卡账单信息",
+              "detailMessageList": [
+                {
+                  "type": "1",
+                  "key": "账单金额",
+                  "value": "￥1000.00"
+                },
+                {
+                  "type": "1",
+                  "key": "最低还款额",
+                  "value": "￥50.00"
+                },
+                {
+                  "type": "1",
+                  "key": "账单日期",
+                  "value": "01月03日"
+                },
+                {
+                  "type": "1",
+                  "key": "到期还款日",
+                  "value": "01月21日"
+                },
+                {
+                  "type": "2",
+                  "key": "",
+                  "value": "到期还款日到期还款日到期还款日到期还款日到期还款日"
+                }
+              ],
+              "warning": "口头索取手机动态吗行为都是咋骗，谨防假冒银行客服的电话。",
+              "buttonList": [
+                {
+                  "innerText": "账单明细",
+                  "actionUrl": "www.pingan.com"
+                },
+                {
+                  "innerText": "账单分期",
+                  "actionUrl": "www.pingan.com"
+                },
+                {
+                  "innerText": "立即还款",
+                  "actionUrl": "www.pingan.com"
+                }
+              ]
+            }
+          },
+          {
+            "messageId": "6",
+            "title": "我的账单",
+            "time": "2016-10-10",
+            "action": "native",
+            "actionUrl": "",
+            "messageType": "1",
+            "content": {
+              "title": "您的01月个人信用卡账单信息",
+              "detailMessageList": [
+                {
+                  "type": "1",
+                  "key": "账单金额",
+                  "value": "￥1000.00"
+                },
+                {
+                  "type": "1",
+                  "key": "最低还款额",
+                  "value": "￥50.00"
+                },
+                {
+                  "type": "1",
+                  "key": "账单日期",
+                  "value": "01月03日"
+                },
+                {
+                  "type": "1",
+                  "key": "到期还款日",
+                  "value": "01月21日"
+                },
+                {
+                  "type": "2",
+                  "key": "",
+                  "value": "到期还款日到期还款日到期还款日到期还款日到期还款日"
+                }
+              ],
+              "warning": "口头索取手机动态吗行为都是咋骗，谨防假冒银行客服的电话。",
+              "buttonList": [
+                {
+                  "innerText": "账单明细",
+                  "actionUrl": "www.pingan.com"
+                },
+                {
+                  "innerText": "账单分期",
+                  "actionUrl": "www.pingan.com"
+                },
+                {
+                  "innerText": "立即还款",
+                  "actionUrl": "www.pingan.com"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/message/listMore",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/queryCurrentBill",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "accountList": [
+          {
+            "accountNo": "2998********6928",
+            "accountNoIndex": "691000224",
+            "acctLogoDesc": "个人信用卡",
+            "logo": "998"
+          },
+          {
+            "accountNo": "2998********6928",
+            "accountNoIndex": "691000224",
+            "acctLogoDesc": "我的123131",
+            "logo": "998"
+          }
+        ],
+        "billDate": "2016-02-04",
+        "dollarAmountToPayOffTotal": "1",
+        "dollarMinAmountToPayOffTotal": "12",
+        "dollarMinRemianAmountPayOffTotal": "13",
+        "dollarRemianAmountPayOffTotal": "100021",
+        "payOffDate": "2016-03-12",
+        "payedAlready": "1",
+        "rmbAmountToPayOffTotal": "1026.52",
+        "rmbMinAmountToPayOffTotal": "453.62",
+        "rmbMinRemianAmountPayOffTotal": "453.62",
+        "rmbRemianAmountPayOffTotal": "1026.5121"
+      }
+    }
+  },
+
+  {
+    "url": "/rest/accountList",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "list": [
+          {
+            "type": "1",
+            "name": "个人信用卡"
+          },
+          {
+            "type": "2",
+            "name": "大润发卡"
+          },
+          {
+            "type": "3",
+            "name": "金通卡"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/getBlp",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "rmbAmountToPayOffTotal": "232",
+        "dollarAmountToPayOffTotal": "-233.0",
+        "rmbRemianAmountPayOffTotal": "-1026.51",
+        "dollarRemianAmountPayOffTotal": "-1000.0",
+        "billDate": "2035-05-03",
+        "payOffDate": "2035-05-21",
+        "availableLimit": "118973.49",
+        "availablePoint": "4500",
+
+        "cashLimit": "0.0",
+        "dollarMinAmountToPayOffTotal": "-2311.0",
+        "dollarMinRemianAmountPayOffTotal": "-11.0",
+        "limit": "120000.0",
+        "payedAlready": "0",
+        "rmbMinAmountToPayOffTotal": "-453.64",
+        "rmbMinRemianAmountPayOffTotal": "-453.64"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/setnickname",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "nickname": "ccmsNO1"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/setAvatar",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "avatarUrl": "http://192.168.31.127:8080/pic/header/header.jpg"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/hasGesturePwd",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "hasGesturePwd": "1"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/checkGesturePwd",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "锁定",
+      "body": {
+        "randomNum": "12321321",
+        "timestamp": "123321323",
+        "sign": "dg",
+        "errorTry": "8"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/queryMobile",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "cardBindStatus": "0",
+        "checkMobile": "139****1232",
+        "mobliepreEqReg": "0"
+      }
+    }
+  },
+  {
+    "url": "/rest/user/setGesturePwd",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/code/checkDynaUptMob",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {}
+    }
+  },
+  {
+    "url": "/rest/pabank/login/changeCheck",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "everToken": "qDciglWEWiVN0mypXLVIZCb62iSh3Xeqx/4rSlNto4UtGcSzSu6TSQ==",
+        "cardBindStatus": "1",
+        "headUrl": "http://192.168.31.127:8080/pic/header/header.jpg",
+        "nickname": "ccms",
+        "ccmsNo": "7670",
+        "mobileNoWithStar": "138****0001",
+        "checkMobile": "13911111111"
+      }
+    }
+  },
+  {
+    "url": "/rest/message/one",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "messageId": "100",
+        "title": "我显示消息推送的123213",
+        "time": "2016-10-10",
+        "action": "native",
+        "actionUrl": "",
+        "type": "1",
+        "content": {
+          "title": "您的01月个人信用卡账单信息",
+          "detailMessageList": [
+            {
+              "type": "1",
+              "key": "账单金额",
+              "value": "￥1000.00"
+            },
+            {
+              "type": "1",
+              "key": "最低还款额",
+              "value": "￥50.00"
+            },
+            {
+              "type": "1",
+              "key": "账单日期",
+              "value": "01月03日"
+            },
+            {
+              "type": "1",
+              "key": "到期还款日",
+              "value": "01月21日"
+            },
+            {
+              "type": "2",
+              "key": "",
+              "value": "到期还款日到期还款日到期还款日到期还款日到期还款日"
+            }
+          ],
+          "warning": "口头索取手机动态吗行为都是咋骗，谨防假冒银行客服的电话。",
+          "buttonList": [
+            {
+              "innerText": "账单明细",
+              "actionUrl": "www.pingan.com"
+            },
+            {
+              "innerText": "账单分期",
+              "actionUrl": "www.pingan.com"
+            },
+            {
+              "innerText": "立即还款",
+              "actionUrl": "www.pingan.com"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "url": "/rest/app/update",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "version": "2",
+        "downLoadUrl": " ",
+        "descript": "修改了很多BUG",
+        "forceUpdate": "0"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/getNotActivateCard",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "服务激活",
+      "body": {
+        "flag": "3",
+        "activateCardList": [
+          {
+            "masterCardFlag": "0",
+            "title": "平安信用卡加油卡哈哈卡",
+            "cardNo": "3534********9898",
+            "cardIndex": "2345",
+            "sourceCode": "0",
+            "cardFace": "一般卡"
+          },
+          {
+            "masterCardFlag": "1",
+            "title": "平安加油卡",
+            "cardNo": "3534********1111",
+            "cardIndex": "1asddsads",
+            "sourceCode": "0",
+            "cardFace": "一般卡"
+          },
+          {
+            "masterCardFlag": "3",
+            "title": "平安普通卡",
+            "cardNo": "3534********2222",
+            "cardIndex": "1asddsads",
+            "sourceCode": "0",
+            "cardFace": "一般卡"
+          },
+          {
+            "masterCardFlag": "1",
+            "title": "平安金卡",
+            "cardNo": "3534********3333",
+            "cardIndex": "1asddsads",
+            "sourceCode": "0",
+            "cardFace": "一般卡"
+          },
+          {
+            "masterCardFlag": "1",
+            "title": "平安黑卡",
+            "cardNo": "3534********4444",
+            "cardIndex": "1asddsads",
+            "sourceCode": "0",
+            "cardFace": "一般卡"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/codeLogin/getDynaHasLogin",
+    "response": {
+      "code": "2080",
+      "getOTP": "激活合身otp",
+      "message": "",
+      "body": {
+        "mobileNo": "2148",
+        "mobileNoWithoutMid4": "183****9884",
+        "code": "12345678"
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/logout/getDyna",
+    "response": {
+      "code": "0",
+      "getOTP": "激活合身otp",
+      "body": {
+        "mobileNo": "2148",
+        "mobileNoWithoutMid4": "183****9884",
+        "code": "12345678"
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/user/login/toaEbank",
+    "response": {
+      "code": "0",
+      "message": "一账通登录",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/getNotActivateCardWithIdCard",
+    "method": "post",
+    "作用": "获取激活卡列表ID",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {
+        "activateCardList": [
+          {
+            "masterCardFlag": "0",
+            "title": "平安信用卡加油卡哈哈卡",
+            "cardNo": "3534********9080",
+            "cardIndex": "2345",
+            "sourceCode": "asdsasasda",
+            "cardFace": "一般卡"
+          },
+          {
+            "masterCardFlag": "1",
+            "title": "平安加油卡",
+            "cardNo": "3534********9081",
+            "cardIndex": "1asddsads",
+            "sourceCode": "asdsasasda",
+            "cardFace": "一般卡"
+          },
+          {
+            "masterCardFlag": "1",
+            "title": "平安普通卡",
+            "cardNo": "3534********9082",
+            "cardIndex": "1asddsads",
+            "sourceCode": "asdsasasda",
+            "cardFace": "一般卡"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/logout/getNotActivateCardWithOTP",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "作用": "激活合身只验证otp",
+      "body": {
+        "activateCardList": [
+          {
+            "masterCardFlag": "0",
+            "title": "平安信用卡加油卡哈哈卡",
+            "cardNo": "3534********9080",
+            "cardIndex": "2345",
+            "sourceCode": "asdsasasda",
+            "cardFace": "一般卡"
+          },
+          {
+            "masterCardFlag": "1",
+            "title": "平安加油卡",
+            "cardNo": "3534********9081",
+            "cardIndex": "1asddsads",
+            "sourceCode": "asdsasasda",
+            "cardFace": "一般卡"
+          },
+          {
+            "masterCardFlag": "1",
+            "title": "平安普通卡",
+            "cardNo": "3534********9082",
+            "cardIndex": "1asddsads",
+            "sourceCode": "asdsasasda",
+            "cardFace": "一般卡"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/changeSingleAndDailyLimit",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "设置成功",
+      "作用": "激活限额",
+      "body": {
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/creditcard/queryLimitInfoOld",
+    "response": {
+      "code": "0",
+      "message": "我的额度",
+      "body": {
+        "accountList": [
+          {
+            "accountNo": "2998********6928",
+            "accountNoIndex": 691000224,
+            "acctLogoDesc": "个人信用卡",
+            "logo": "998"
+          },
+          {
+            "accountNo": "2998********6928",
+            "accountNoIndex": 691000224,
+            "acctLogoDesc": "231313",
+            "logo": "996"
+          }
+        ],
+        "currentLogo": "998",
+        "availableLimit": "20000",
+        "cashLimit": "10000",
+        "limit": "20000"
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/creditcard/slh/getCardListByPwd",
+    "response": {
+      "code": "0",
+      "message": "",
+      "body": {
+        "tPwdCardList": [
+          {
+            "cardNoStar": "9999********1235",
+            "cardIndex": "index111111",
+            "cardName": "平安银行白金卡测试测试测试测试测试测试测试",
+            "cardImgUrlMin": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/smallImg/1210@2x.png",
+            "cardImgUrl": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/bigImg/1210@2x.png",
+            "cardFace": "face123",
+            "logo": "logo1",
+            "pwdFlag":"Y",
+            "pinOptionFlag":"Y",
+            "pwdReqKey":"Y"
+          },
+          {
+            "cardNoStar": "5678********3456",
+            "cardIndex": "index111111",
+            "cardName": "平安银行淘宝卡",
+            "cardImgUrlMin": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/smallImg/1220@2x.png",
+            "cardImgUrl": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/bigImg/1220@2x.png",
+            "cardFace": "face123",
+            "logo": "logo1",
+            "pwdFlag":"Y",
+            "pinOptionFlag":"Y",
+            "pwdReqKey":"Y"
+          },
+          {
+            "cardNoStar": "3333********3454",
+            "cardIndex": "index111111",
+            "cardName": "平安银行fuck卡",
+            "cardImgUrlMin": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/smallImg/1230@2x.png",
+            "cardImgUrl": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/bigImg/1230@2x.png",
+            "cardFace": "face123",
+            "logo": "logo1"
+          },
+          {
+            "cardNoStar": "1234********1234",
+            "cardIndex": "index111111",
+            "cardName": "平安银行白金卡",
+            "cardImgUrlMin": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/smallImg/1210@2x.png",
+            "cardImgUrl": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/bigImg/1210@2x.png",
+            "cardFace": "face123",
+            "logo": "logo1"
+          },
+          {
+            "cardNoStar": "5678********3456",
+            "cardIndex": "index111111",
+            "cardName": "平安银行淘宝卡",
+            "cardImgUrlMin": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/smallImg/1220@2x.png",
+            "cardImgUrl": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/bigImg/1220@2x.png",
+            "cardFace": "face123",
+            "logo": "logo1"
+          },
+          {
+            "cardNoStar": "3333********3454",
+            "cardIndex": "index111111",
+            "cardName": "平安银行fuck卡",
+            "cardImgUrlMin": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/smallImg/1230@2x.png",
+            "cardImgUrl": "https://capp.pingan.com.cn/paces_ccms_core/images/pwdCardFace/bigImg/1230@2x.png",
+            "cardFace": "face123",
+            "logo": "logo1"
+          }
+        ],
+        "preMobileNoStar": "138****5678"
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/creditcard/slh/setQPwdOne",
+    "response": {
+      "code": "0",
+      "message": "xxxxx",
+      "body": {
+        "preMobileNoStar": "138****1234"
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/creditcard/slh/uptQPwd",
+    "response": {
+      "code": "0",
+      "message": "xxxxx"
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/setTPwdOne",
+    "response": {
+      "code": "0",
+      "message": "xxxxx"
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/creditcard/slh/uptTPwd",
+    "response": {
+      "code": "0",
+      "message": "xxxxx"
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/oneKeyRepayment",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "操作成功",
+      "body": {
+        "accountList": [
+          {
+            "accountNo": "2998********3195",
+            "accountNoIndex": "551451706",
+            "acctLogo": "998",
+            "acctLogoDesc": "个人信用卡"
+          }
+        ],
+        "accountType": "1",
+        "debitCardList": [],
+        "dollarAmountChangeAll": "0.00",
+        "dollarAmountChangePart": "0.00",
+        "dollarRemianAmountPayOffTotal": "0.00",
+        "exchangeRate": "6.79",
+        "isbuyDollar": "11",
+        "lastPaymentBankCode": "",
+        "lastPaymentCardHash": "",
+        "lastPaymentCardNo": "",
+        "maximumRepaymentAmount": "8200.00",
+        "minRemianAmountPayOffTotal": "8200.00",
+        "minimumRepaymentAmount": "24200.00",
+        "paymentBankList": [
+          {
+            "paymentBankCode": "10099",
+            "paymentBankName": "平安银行"
+          },
+          {
+            "paymentBankCode": "10001",
+            "paymentBankName": "工商银行"
+          },
+          {
+            "paymentBankCode": "10002",
+            "paymentBankName": "农业银行"
+          },
+          {
+            "paymentBankCode": "10004",
+            "paymentBankName": "建设银行"
+          },
+          {
+            "paymentBankCode": "10003",
+            "paymentBankName": "中国银行"
+          },
+          {
+            "paymentBankCode": "10016",
+            "paymentBankName": "交通银行"
+          },
+          {
+            "paymentBankCode": "10006",
+            "paymentBankName": "招商银行"
+          },
+          {
+            "paymentBankCode": "10007",
+            "paymentBankName": "中信银行"
+          },
+          {
+            "paymentBankCode": "10017",
+            "paymentBankName": "浦发银行"
+          },
+          {
+            "paymentBankCode": "10008",
+            "paymentBankName": "兴业银行"
+          },
+          {
+            "paymentBankCode": "10009",
+            "paymentBankName": "光大银行"
+          },
+          {
+            "paymentBankCode": "10010",
+            "paymentBankName": "民生银行"
+          },
+          {
+            "paymentBankCode": "10018",
+            "paymentBankName": "华夏银行"
+          },
+          {
+            "paymentBankCode": "10005",
+            "paymentBankName": "邮储银行"
+          }
+        ],
+        "remianAmountPayOffTotal": "24200.00",
+        "rmbMinRemianAmountPayOffTotal": "8200.00",
+        "rmbRemianAmountPayOffTotal": "24200.00"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/buyDollar",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功"
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getRepaymentGouhuiFlag",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {
+        "isbuyDollar": "00"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/submitRepayment",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "获取成功"
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/creditcard/slh/queryHistoryBillMonths",
+    "response": {
+      "message": "历史月份",
+      "code": "0",
+      "body": {
+        "acctList": [
+          {
+            "accountNo": "2998********7964",
+            "accountNoIndex": "1321794978",
+            "acctLogoDesc": "个人信用卡",
+            "isDoubleCurr": true,
+            "logo": "998"
+          },
+          {
+            "accountNo": "2997********4373",
+            "accountNoIndex": "-1050133636",
+            "acctLogoDesc": "公务卡",
+            "isDoubleCurr": false,
+            "logo": "997"
+          }
+        ],
+        "monthList": [
+          {
+            "dollarcurrentPaymentDue": "164.31",
+            "month": "201909",
+            "rmbcurrentPaymentDue": "603.32"
+          },
+          {
+            "dollarcurrentPaymentDue": "0.00",
+            "month": "201908",
+            "rmbcurrentPaymentDue": "0.00"
+          },
+          {
+            "dollarcurrentPaymentDue": "0.00",
+            "month": "201907",
+            "rmbcurrentPaymentDue": "0.00"
+          },
+          {
+            "dollarcurrentPaymentDue": "156.17",
+            "month": "201906",
+            "rmbcurrentPaymentDue": "576.39"
+          },
+          {
+            "dollarcurrentPaymentDue": "153.97",
+            "month": "201905",
+            "rmbcurrentPaymentDue": "569.12"
+          },
+          {
+            "dollarcurrentPaymentDue": "153.19",
+            "month": "201904",
+            "rmbcurrentPaymentDue": "466.55"
+          },
+          {
+            "dollarcurrentPaymentDue": "149.75",
+            "month": "201903",
+            "rmbcurrentPaymentDue": "405.27"
+          },
+          {
+            "dollarcurrentPaymentDue": "147.85",
+            "month": "201902",
+            "rmbcurrentPaymentDue": "399.68"
+          },
+          {
+            "dollarcurrentPaymentDue": "146.57",
+            "month": "201901",
+            "rmbcurrentPaymentDue": "346.12"
+          },
+          {
+            "dollarcurrentPaymentDue": "144.52",
+            "month": "201812",
+            "rmbcurrentPaymentDue": "340.84"
+          },
+          {
+            "dollarcurrentPaymentDue": "0.00",
+            "month": "201811",
+            "rmbcurrentPaymentDue": "276.97"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/creditcard/slh/getCurrentAndHistoryBill",
+    "response": {
+      "message": "ppppp",
+      "code": "0",
+      "body": {
+        "accountList": [
+        ],
+        "acctNo": null,
+        "billDate": "2016-12-12",
+        "currAdjustAmount": "0.00",
+        "currTotalAmt": "0.00",
+        "currentPageNum": "1",
+        "detailList": [
+          {
+            "txnDate": "2016-10-11",
+            "cardNoLast4": "1111",
+            "txnDesc": "二次元消费",
+            "txnAmount": "2000",
+            "curType": "242"
+          },
+          {
+            "txnDate": "2016-10-12",
+            "cardNoLast4": "2222",
+            "txnDesc": "买手办",
+            "txnAmount": "1400",
+            "curType": "242"
+          },
+          {
+            "txnDate": "2016-10-13",
+            "cardNoLast4": "3333",
+            "txnDesc": "买手办",
+            "txnAmount": "1400",
+            "curType": "242"
+          },
+          {
+            "txnDate": "2016-10-14",
+            "cardNoLast4": "4444",
+            "txnDesc": "买手办",
+            "txnAmount": "1400",
+            "curType": "242"
+          },
+          {
+            "txnDate": "2016-10-15",
+            "cardNoLast4": "5555",
+            "txnDesc": "买手办",
+            "txnAmount": "1400",
+            "curType": "242"
+          }
+        ],
+        "dollarAmountToPayOffTotal": "165.15",
+        "dollarMinAmountToPayOffTotal": "16.52",
+        "dollarRemianAmountPayOffTotal": "95.00",
+        "payedAlready": "1",
+        "rmbRemianAmountPayOffTotal": "90.00",
+        "minPay": "0.00",
+        "paymentDate": "2017-01-01",
+        "prvPmtAmount": "0.00",
+        "rmbAmountToPayOffTotal": "100.00",
+        "rmbMinAmountToPayOffTotal": "10.00",
+        "totalAmount": "0.00",
+        "totalPaymentDue": "0.00",
+        "totalRecNum": "1"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getSingleAndDailyLimitList",
+    "method": "post",
+    "作用": "服务限额",
+    "response": {
+      "code": "0",
+      "message": "获取成功",
+      "body": {
+        "cardList": [
+          {
+            "rmbNetPayFlg": "Y",
+            "rmbSnglTxnAmt": "1000",
+            "rmbNetDailyAmt": "5000",
+            "rmbCreditLimit": "20000",
+            "usdNetPayFlg": "N",
+            "usdSnglTxnAmt": "1000",
+            "usdNetDailyAmt": "5000",
+            "usdCreditLimit": "20000",
+            "cardName": "平安卡测试测试测试测试测试测试测试测试",
+            "cardIndex": "1234",
+            "maskCardNo": "1234********0000",
+            "cardImgURL": "http://a0.att.hudong.com/03/05/20300542491654139731059404068.jpg"
+          },
+          {
+            "rmbNetPayFlg": "Y",
+            "rmbSnglTxnAmt": "1000",
+            "rmbNetDailyAmt": "5000",
+            "rmbCreditLimit": "20000",
+            "usdNetPayFlg": "Y",
+            "usdSnglTxnAmt": "1000",
+            "usdNetDailyAmt": "5000",
+            "usdCreditLimit": "20000",
+            "cardName": "平安卡测试测试测试测试测试测试测试测试",
+            "cardIndex": "1234",
+            "maskCardNo": "1234********1111",
+            "cardImgURL": "http://images.88.com.cn/upload/news_images/ueditor/php/upload/14406554478493.png"
+          },
+          {
+            "rmbNetPayFlg": "N",
+            "rmbSnglTxnAmt": "1000",
+            "rmbNetDailyAmt": "5000",
+            "rmbCreditLimit": "20000",
+            "usdNetPayFlg": "Y",
+            "usdSnglTxnAmt": "1000",
+            "usdNetDailyAmt": "5000",
+            "usdCreditLimit": "20000",
+            "cardName": "平安卡",
+            "cardIndex": "1234",
+            "maskCardNo": "1234********2222",
+            "cardImgURL": "http://images.88.com.cn/upload/news_images/ueditor/php/upload/14406554478493.png"
+          },
+          {
+            "rmbNetPayFlg": "Y",
+            "rmbSnglTxnAmt": "1000",
+            "rmbNetDailyAmt": "5000",
+            "rmbCreditLimit": "20000",
+            "cardName": "平安卡",
+            "cardIndex": "1234",
+            "maskCardNo": "1234********3333",
+            "cardImgURL": "http://images.88.com.cn/upload/news_images/ueditor/php/upload/14406554478493.png"
+          },
+          {
+            "rmbNetPayFlg": "N",
+            "rmbSnglTxnAmt": "1000",
+            "rmbNetDailyAmt": "5000",
+            "rmbCreditLimit": "20000",
+            "cardName": "平安卡",
+            "cardIndex": "1234",
+            "maskCardNo": "1234********4444",
+            "cardImgURL": "http://images.88.com.cn/upload/news_images/ueditor/php/upload/14406554478493.png"
+          },
+          {
+            "usdNetPayFlg": "Y",
+            "usdSnglTxnAmt": "1000",
+            "usdNetDailyAmt": "5000",
+            "usdCreditLimit": "20000",
+            "cardName": "平安卡",
+            "cardIndex": "1234",
+            "maskCardNo": "1234********5555",
+            "cardImgURL": "http://images.88.com.cn/upload/news_images/ueditor/php/upload/14406554478493.png"
+          },
+          {
+            "usdNetPayFlg": "N",
+            "usdSnglTxnAmt": "1000",
+            "usdNetDailyAmt": "5000",
+            "usdCreditLimit": "20000",
+            "cardName": "平安卡",
+            "cardIndex": "1234",
+            "maskCardNo": "1234********6666",
+            "cardImgURL": "http://images.88.com.cn/upload/news_images/ueditor/php/upload/14406554478493.png"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/creditcard/slh/queryFutureBill",
+    "response": {
+      "message": "未出账单",
+      "code": "0",
+      "body": {
+        "accountList": [
+        ],
+        "detailList": [
+          {
+            "postDate": "1223",
+            "effectDate": "2016-12-21",
+            "mcc": "06012",
+            "cardNoLast4": "",
+            "txnAmount": "1500.00",
+            "consumeCurType": "RMB",
+            "consumeAmt": "1500.00",
+            "authCode": "",
+            "returnFlag": "",
+            "txnCurType": "242",
+            "transLog": "账单分期产品                 6- 4 期",
+            "txnCode": "D611"
+          },
+          {
+            "postDate": "1223",
+            "effectDate": "2016-12-22",
+            "mcc": "06012",
+            "cardNoLast4": "",
+            "txnAmount": "1500.00",
+            "consumeCurType": "RMB",
+            "consumeAmt": "1500.00",
+            "authCode": "",
+            "returnFlag": "",
+            "txnCurType": "242",
+            "transLog": "账单分期产品                 6- 4 期",
+            "txnCode": "D611"
+          },
+          {
+            "postDate": "1223",
+            "effectDate": "2016-12-23",
+            "mcc": "06012",
+            "cardNoLast4": "",
+            "txnAmount": "1500.00",
+            "consumeCurType": "RMB",
+            "consumeAmt": "1500.00",
+            "authCode": "",
+            "returnFlag": "",
+            "txnCurType": "242",
+            "transLog": "账单分期产品                 6- 4 期",
+            "txnCode": "D611"
+          },
+          {
+            "postDate": "1223",
+            "effectDate": "2016-12-24",
+            "mcc": "06012",
+            "cardNoLast4": "",
+            "txnAmount": "1500.00",
+            "consumeCurType": "RMB",
+            "consumeAmt": "1500.00",
+            "authCode": "",
+            "returnFlag": "",
+            "txnCurType": "242",
+            "transLog": "账单分期产品                 6- 4 期",
+            "txnCode": "D611"
+          }
+        ],
+        "dollarConsumptionAmount": "0.00",
+        "currentPageNum": "2",
+        "totalRmbPaymentAmt": "0.00",
+        "totalRecNum": "2",
+        "totalUsdPaymentAmt": "0.00",
+        "rmbConsumptionAmount": "1572.00"
+      }
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/ma/img/accurateImgList",
+    "response": {
+      "body": {
+        "mainScreen": [
+          {
+            "activityName": "加油88",
+            "ad_id": "4A47671BF4960062E0530A01B41F2FA7",
+            "ad_type": "1",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://capp.pingan.com.cn/paces_ccms_core/html/modules/refuel88Discount/refuel88Discount.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/bd84bcba-e5f9-4f15-b114-d1f05c4ccd03.jpg",
+            "position": "0",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "境外10%",
+            "ad_id": "4A47669965060006E0530A01B41FDAFE",
+            "ad_type": "1",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://m.pingan.com/c3/xinyongka/huodong/haitao/index.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/e00010b8-a8b9-430e-a806-a6b4dba5c88d.jpg",
+            "position": "1",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "餐饮五折券",
+            "ad_id": "4A476BFFE1760034E0530A01B41FE20A",
+            "ad_type": "1",
+            "channel": "2",
+            "city": "全部",
+            "destUrl": "https://capp.pingan.com.cn/paces_ccms_core/html/modules/middlepage/middlePage.html?channel=2&callback=https://pabo2o.pingan.com.cn",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/e8cee914-783f-4cf9-b0a1-5ded9acb5296.JPG",
+            "position": "2",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "爱奇艺会员买一送一",
+            "ad_id": "4A476BFFE1770034E0530A01B41FE20A",
+            "ad_type": "1",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://m.pingan.com/c3/xinyongka/huodong/AQY/index.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/fb7f0514-2279-49a4-8fc3-ff369a5e96ee.jpg",
+            "position": "3",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "保险女神",
+            "ad_id": "4A47669965070006E0530A01B41FDAFE",
+            "ad_type": "1",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://m.pingan.com/c3/xinyongka/huodong/nsj/index.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/cc157740-4b60-4281-861b-6c3a6aff8e65.jpg",
+            "position": "4",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "积分享美食",
+            "ad_id": "4A476D9646A600E4E0530A01B41F4E97",
+            "ad_type": "1",
+            "channel": "1",
+            "city": "全部",
+            "destUrl": "https://capp.pingan.com.cn/paces_ccms_core/html/modules/middlepage/middlePage.html?channel=1&callback=https://www.wanlitong.com/wap/event/zone/841.shtml",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/c0f25f02-5af3-4a11-9a4e-54c46a440e05.jpg",
+            "position": "5",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "网上商城",
+            "ad_id": "4A476D9646A700E4E0530A01B41F4E97",
+            "ad_type": "1",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://m.pingan.com/s23",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/46b8b439-7325-4633-90ac-e6bf4d87ef9d.jpg",
+            "position": "6",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          }
+        ],
+        "topBanner": [
+          {
+            "activityName": "女神节",
+            "ad_id": "4A46FA16F652005AE0530A01B41F9BE3",
+            "ad_type": "0",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://m.pingan.com/c3/xinyongka/huodong/17nsj/index.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/51feed4c-a367-4f41-bcd5-9908adc71195.jpg",
+            "position": "0",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "188",
+            "ad_id": "4A46FA16F653005AE0530A01B41F9BE3",
+            "ad_type": "0",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://m.pingan.com/c3/xinyongka/huodong/khb/index.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/82e694aa-86b9-4e11-a031-79a59a7d52e3.jpg",
+            "position": "1",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "车主生活",
+            "ad_id": "4A47669965050006E0530A01B41FDAFE",
+            "ad_type": "0",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://m.pingan.com/c3/xinyongka/huodong/7925/index.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/74453836-1d78-49ff-9648-c1d177bd7ad4.jpg",
+            "position": "2",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "微信影票儿",
+            "ad_id": "4A47671BF4940062E0530A01B41F2FA7",
+            "ad_type": "0",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://m.pingan.com/c3/xinyongka/huodong/yp/index.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/3ff952aa-afcf-4dad-aebc-3b22b7b71052.jpg",
+            "position": "3",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          },
+          {
+            "activityName": "超级平安买单兑换",
+            "ad_id": "4A47671BF4950062E0530A01B41F2FA7",
+            "ad_type": "0",
+            "channel": "",
+            "city": "全部",
+            "destUrl": "https://capp.pingan.com.cn/paces_ccms_core/html/modules/maidan/q4/index.html",
+            "picUrl": "https://capp.pingan.com.cn/paces_ccms_core/advertisementImages/e7c0cfa8-6ad3-4a19-a115-f6c3bb3a65a5.jpg",
+            "position": "4",
+            "shareInfo": {},
+            "shareTempletId": "",
+            "showType": "0"
+          }
+        ]
+      },
+      "code": "0",
+      "message": "操作成功"
+    }
+  },
+  {
+    "method": "post",
+    "url": "/rest/pabank/ma/iconShow/getIconList",
+    "response": {
+      "message": "4icon",
+      "code": "0",
+      "body": {
+        "bindShortcutMenu": [
+          {
+            "iconUrlAfter": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/f1ab80a8-f99d-4896-86e5-3c842d4926e9.png",
+            "iconUrlBefore":"https://capp.pingan.com.cn/paces_ccms_core/iconImages/36c5653e-a776-4c4c-8b37-14993be9967e.png",
+            "key":"201701220000000000000240",
+            "position":"1",
+            "title":""
+          },
+          {
+            "iconUrlAfter": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/07bd6090-f711-4c18-96c0-88131105c6e9.png",
+            "iconUrlBefore": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/90df89eb-6ea4-498a-901e-ff8f8788d3c6.png",
+            "key": "201701220000000000000242",
+            "position": "2",
+            "title": ""
+          },
+          {
+            "iconUrlAfter": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/1e90a9ab-b023-46f8-a715-043e84adc322.png",
+            "iconUrlBefore": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/6c8f0d57-8a6c-4ed2-aece-0ed098e00114.png",
+            "key": "201701220000000000000242",
+            "position": "3",
+            "title": ""
+          },
+          {
+            "iconUrlAfter": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/723acfe3-c5fb-4197-aa98-5b6f04ecde4a.png",
+            "iconUrlBefore": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/e8713b94-1d99-4413-9ee0-a605930e5906.png",
+            "key": "201701220000000000000242",
+            "position": "4",
+            "title": ""
+          }
+        ],
+        "notBindShortcutMenu": [
+          {
+            "iconUrlAfter": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/129fff01-0b49-4f6f-aaea-1e09386af289.png",
+            "iconUrlBefore": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/807956b8-f304-47a8-8aff-99b07c1002aa.png",
+            "key": "201701220000000000000242",
+            "position": "1",
+            "title": ""
+          },
+          {
+            "iconUrlAfter": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/21383149-ee03-4930-93ba-06e06ab38a25.png",
+            "iconUrlBefore": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/34c37285-fe21-45e7-b314-970597b3316c.png",
+            "key": "201701220000000000000242",
+            "position": "2",
+            "title": ""
+          },
+          {
+            "iconUrlAfter": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/1a4e8871-d5dd-4334-946f-7e1606711158.png",
+            "iconUrlBefore": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/b4c80f88-07c3-4f5c-bff9-654a502fcacc.png",
+            "key": "201701220000000000000242",
+            "position": "3",
+            "title": ""
+          },
+          {
+            "iconUrlAfter": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/6981c532-e6cc-4757-bb9c-945b661f2d98.png",
+            "iconUrlBefore": "https://capp.pingan.com.cn/paces_ccms_core/iconImages/11cd0f0f-7125-4975-842b-2e8511caa677.png",
+            "key": "201701220000000000000242",
+            "position": "4",
+            "title": ""
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pocket/imgBenefit/list",
+    "method": "post",
+    "response": {
+    "code": "0",
+    "message": "操作成功",
+    "body": {
+        "topBanner": [
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/cad2c8a7-cdae-4876-9533-b8b81246aec1.png",
+                "position": "1",
+                "title": "出境优惠",
+                "actionUrl": "https://m.pingan.com/c3/xinyongka/huodong/overseas/index.shtml"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/5f985e20-4798-40c8-8eda-eca625e537e9.png",
+                "position": "2",
+                "title": "身边优惠",
+                "actionUrl": "https://pabo2o.pingan.com.cn"
+            }
+        ],
+        "lifeIcon": [
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/b94f6fa6-c440-4bb8-a1b0-c35fd53a88d2.png",
+                "position": "1",
+                "title": "生活服务",
+                "actionUrl": "https://capp.pingan.com.cn/paces_ccms_core/html/modules/lifeService/lifeService.html"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/30a03cf4-f0eb-4ba3-9260-4b4ba78b299f.png",
+                "position": "2",
+                "title": "积分专区",
+                "actionUrl": "https://capp.pingan.com.cn/paces_ccms_core/html/modules/integrationRegion/integrationRegionWlt.html"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/a51744f9-fc69-443c-bced-1e7c96822837.png",
+                "position": "3",
+                "title": "投资理财",
+                "actionUrl": "https://capp.pingan.com.cn/paces_ccms_core/html/modules/stockExchange/stockExchange.html"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/b329740f-a83f-47db-a513-b5c58cd6505a.png",
+                "position": "4",
+                "title": "保险卫士",
+                "actionUrl": "https://www.baidu.com"
+            }
+        ],
+        "bottomScreen": [
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/eb10e88d-c729-4ba9-b707-d36bb4494dfc.jpg",
+                "position": "1",
+                "title": "小米专区",
+                "actionUrl": "https://cardmall.pingan.com.cn/appemall/modules/classify/index.html?hotBrand=%E5%B0%8F%E7%B1%B3MI&saleChannelPhoneMall=xykapp&channelType=cc2b#list"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/4f9d3568-c073-4e92-943f-21ac53ff45c4.jpg",
+                "position": "10",
+                "title": "以旧换新",
+                "actionUrl": "https://bd.aihuishou.com/ahs/pingan/index.html"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/76477751-a9bb-4468-b1d7-f129fd7e50c1.jpg",
+                "position": "11",
+                "title": "联想专区",
+                "actionUrl": "https://cardmall.pingan.com.cn/appemall/modules/classify/index.html?hotBrand=%E8%81%94%E6%83%B3%20Lenovo&saleChannelPhoneMall=xykapp&channelType=cc2b#list"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/e0df9991-afd2-4c03-b7a0-a52e14c3a28a.jpg",
+                "position": "12",
+                "title": "华为专区",
+                "actionUrl": "https://cardmall.pingan.com.cn/appemall/modules/classify/index.html?hotBrand=%E5%8D%8E%E4%B8%BA%20HUAWEI&saleChannelPhoneMall=xykapp&channelType=cc2b#list"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/1a7eebde-d97b-418f-b4ef-ef689209b388.jpg",
+                "position": "2",
+                "title": "更多精彩",
+                "actionUrl": "https://m.pingan.com/film"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/ba5c188a-7e38-4069-b597-a7f1d24e506c.jpg",
+                "position": "3",
+                "title": "爆款团购",
+                "actionUrl": "https://cardmall.pingan.com.cn/appemall/modules/discover/index.html?saleChannelPhoneMall=xykapp&channelType=cc2b#group"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/ccf421c1-2553-4379-88c8-0137f2de5d58.jpg",
+                "position": "4",
+                "title": "苹果专区",
+                "actionUrl": "https://m.pingan.com/c3/xinyongka/huodong/apl/index.html"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/e564e3a2-12e8-4c3b-9eb9-c792ab4883d1.jpg",
+                "position": "5",
+                "title": "24期专区",
+                "actionUrl": "https://m.pingan.com/c3/xinyongka/huodong/24/index.html"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/30ce2fcb-687d-47b1-b47e-99d0d0997b69.jpg",
+                "position": "6",
+                "title": "平安好礼",
+                "actionUrl": "https://cardmall.pingan.com.cn/appemall/modules/discover/index.html?activeId=1202&saleChannelPhoneMall=xykapp&channelType=cc2b#activeDetail"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/d3ec6c31-2be2-4689-9e47-625e53a2becc.jpg",
+                "position": "7",
+                "title": "醉美酒窝",
+                "actionUrl": "https://www.pinganad.com/mall/jiuwo/"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/b299a945-e14f-4ade-8c29-a0cfb158303b.jpg",
+                "position": "8",
+                "title": "奢购时刻",
+                "actionUrl": "https://cardmall.pingan.com.cn/appemall/modules/discover/index.html?activeId=741&saleChannelPhoneMall=xykapp&channelType=cc2b#activeDetail"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/74cb52f1-6077-493d-a869-e7261682499d.jpg",
+                "position": "9",
+                "title": "车主生活",
+                "actionUrl": "https://m.pingan.com/czsh"
+            }
+        ],
+        "mainScreen": [
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/15d07193-ca92-4086-a532-0cfc1b4f8319.jpg",
+                "position": "2",
+                "title": "抢购新风尚",
+                "actionUrl": "https://m.pingan.com/c3/xinyongka/huodong/qianggou/index.html"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/92b12ee1-e71b-4ff6-b5e5-50ea18d9e415.png",
+                "position": "3",
+                "title": "墨镜",
+                "actionUrl": "https://m.pingan.com/c3/xinyongka/huodong/mj/index.html"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/6aaa91fc-97b3-45bb-b18f-06f07fd41b8e.png",
+                "position": "4",
+                "title": "五折美食",
+                "actionUrl": "https://bank-static.pingan.com.cn/paces-ccms-core/campaign/middle/middlePage.html?channel=2&callback=https://pabo2o.pingan.com.cn"
+            },
+            {
+                "imgUrl": "https://capp.pingan.com.cn/paces_ccms_core/lotteryModuleImages/5a2b9d07-a5df-4811-b63e-6dabad30fbd6.jpg",
+                "position": "5",
+                "title": "e生保",
+                "actionUrl": "https://mobile.health.pingan.com/ehis-hm/P005/index.do?c=PAXYKZX&g=A000000021"
+            }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/eCardGet",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "flag": "1",
+        "preMobileNoStar": "138****1234",
+        "deskey": "45xii6bw",
+        "eCardList":[
+          {
+            "cardInfo": "2fdf0dd58d990134f07df314cc8e8fc246b95f5a8a3f7c02d69e5dfa4cae5cbbd89da87c1e072320d5722e4c8e842c854fa545ed82df97f0",
+            "cardIndex": "12121212",
+            "cardName": "平安不带卡",
+            "availableLimit": "50000",
+            "sourceCode": "0",
+            "isActived": "1",
+            "isAvailable": "0"
+          }
+        ],
+        "serialNumber": "123456"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/eCardGetById",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "flag": "2",
+        "preMobileNoStar": "138****1234",
+        "serialNumber": "567890"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/eCardGetVerifyOtp",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "flag": "8",
+        "preMobileNoStar": "138****1234",
+        "eCardList": [
+          {
+            "cardInfo": "2fdf0dd58d990134f07df314cc8e8fc246b95f5a8a3f7c02d69e5dfa4cae5cbbd89da87c1e072320d5722e4c8e842c854fa545ed82df97f0",
+            "cardIndex": "12121212",
+            "cardName": "平安不带卡",
+            "availableLimit": "50000",
+            "sourceCode": "1",
+            "isActived": "1",
+            "isAvailable": "0"
+          }
+        ],
+        "serialNumber": "1000000"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/eCardActivate",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "isOlder": "0",
+        "hasSecondAccount": "1",
+        "bindFail": "1",
+        "needCheckId": "1",
+        "eCardList": [
+          {
+            "cardNoStar": "1234*******1234",
+            "cardIndex": "1234",
+            "cardName": "eCard",
+            "expireDate": "11/2016",
+            "cvn": "123",
+            "availableLimit": "50000",
+            "sourceCode": "0",
+            "isActived": "1",
+            "needCheckId": "1"
+          }
+        ],
+        "secondAccountNo": "4351EF7BB1B6BB66924E5ED0B6A27071B512B5372ABAE6D352438B0DDD92803C6F6AD66678641DE93FA3AF8E207DB5353B13DB4DBB8B6E18",
+        "secondAccountAdr": "平安银行深圳分行营业厅",
+        "serialNumber": "2000000"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/eCardActivateSign",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "isOlder": "0",
+        "hasSecondAccount": "1",
+        "bindFail": "1",
+        "needCheckId": "1",
+        "eCardList": [
+          {
+            "cardNoStar": "1234*******1234",
+            "cardIndex": "1234",
+            "cardName": "eCard",
+            "expireDate": "11/2016",
+            "cvn": "123",
+            "availableLimit": "50000",
+            "sourceCode": "0",
+            "isActived": "1",
+            "needCheckId": "1"
+          }
+        ],
+        "secondAccountNo": "857F9F9F60DA9D4515E5BA121C892794E52D9C8FED6111A2",
+        "accNo2": "2345567856784345",
+        "accNo3": "2345 5678 5678 4345",
+        "secondAccountAdr": "平安银行深圳分行营业厅",
+        "serialNumber": "2000000"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/addTripIterator",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "增加修改行程",
+      "body": {
+        "tripId": "2",
+        "serialNumber": "qwe"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/dropTripIterator",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "删除行程",
+      "body": {
+        "serialNumber": "qwe"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/queryTripIterator",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "查询行程",
+      "body": {
+        "serialNumber": "qwe",
+        "totalPage": "1",
+        "totalNumber": "1",
+        "vCode": "1",
+        "preMobile": "123456****1",
+        "tripList":[
+          {
+            "tripId": "123",
+            "district": "001,001,001,002,002",
+            "leaveDate": "20170518",
+            "returnDate": "20170520",
+            "consumptionAmount": "001",
+            "mobile": "0086-12345678901",
+            "isCallIn": "0",
+            "CallInTime": "",
+            "viewFlag": "1"
+          },
+          {
+            "tripId": "234",
+            "district": "001",
+            "leaveDate": "20170618",
+            "returnDate": "20170720",
+            "consumptionAmount": "001",
+            "mobile": "12345678901",
+            "isCallIn": "1",
+            "CallInTime": "001",
+            "viewFlag": "2"
+          },
+          {
+            "tripId": "345",
+            "district": "001",
+            "leaveDate": "20170722",
+            "returnDate": "20170820",
+            "consumptionAmount": "001",
+            "mobile": "",
+            "tmpAmount": "3000",
+            "isCallIn": "1",
+            "CallInTime": "001",
+            "viewFlag": "0"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/tmpAmountManageIter",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "管理可调临行程",
+      "body": {
+        "serialNumber": "qwe",
+        "totalPage": "1",
+        "totalNumber": "1",
+        "tripList":[
+          {
+            "tripId": "123",
+            "district": "001,001,001,002,002",
+            "leaveDate": "20170518",
+            "returnDate": "20170520",
+            "consumptionAmount": "001",
+            "mobile": "12345678901",
+            "isCallIn": "0",
+            "CallInTime": "001"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getTmpAmoutDataDictIter",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "行程字典",
+      "body": {
+        "dataList": [
+          {
+            "dataCode": "001",
+            "dataName": "日本"
+          },
+          {
+            "dataCode": "002",
+            "dataName": "新加坡"
+          },
+          {
+            "dataCode": "003",
+            "dataName": "马来西亚"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/queryTempSwitchIter",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "查询预约的行程开关",
+      "body": {
+        "switchFlag": "1",
+        "serialNumber": "qwe"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/selectTripIter",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "开启预约调临行程开关",
+      "body": {
+        "currentAmount": "1000",
+        "maxAmount": "2000",
+        "inValideDate": "20180901",
+        "tripId": "11111"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/cancelTmpAmountIter",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "取消预约调临行程开关",
+      "body": {
+        "serialNumber": "qwe"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/appointTmpAmountIter",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "发送服务端预约调临行程",
+      "body": {
+        "serialNumber": "qwe"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getTmpAmountIter",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "查询已调临的行程详情",
+      "body": {
+        "serialNumber": "qwe",
+        "tripId": "123",
+        "district": "001",
+        "leaveDate": "20170518",
+        "returnDate": "20170520",
+        "consumptionAmount": "001",
+        "mobile": "12345678901",
+        "isCallIn": "0",
+        "CallInTime": "0",
+        "appointDate": "2017-01-01",
+        "inValideDate": "2017-01-01",
+        "tmpAmount": "5000"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getPreMobileNo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "查询预留手机号",
+      "body": {
+        "mobileNo": "176****4015"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/eCardActivateSign",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试",
+      "body": {
+        "isOlder": "0",
+        "hasSecondAccount": "1",
+        "hasAutoBind": "1",
+        "eCardList": [
+          {
+            "cardNoStar": "1234*******1234",
+            "cardIndex": "1234",
+            "cardName": "eCard",
+            "expireDate": "11/2016",
+            "cvn": "123",
+            "availableLimit": "50000",
+            "sourceCode": "0",
+            "isActived": "1"
+          }
+        ],
+        "secondAccountNo": "8888 8888 8888 8888",
+        "secondAccountAdr": "平安银行深圳分行营业厅",
+        "serialNumber": "2000000"
+      }
+    }
+  },
+  {
+    "method": "post",
+    "response": {
+      "body": {
+        "accountList": [
+          {
+            "accKey": "商务卡",
+            "acctLogoDesc": "商务卡",
+            "accountIndex": "23asd23131",
+            "accountNo": "1234********1234",
+            "agilityMoneyValidMoney": "90000"
+          }
+        ],
+        "agilityMoneyApplyExplan": "EF01",
+        "agilityMoneyApplyStatus": "Y",
+        "beiYongJinApplyExplan": "EF01",
+        "beiYongJinApplyStatus": "Y",
+        "cardList": [
+          {
+            "cardIndex": "1",
+            "cardNo": "6446********4461"
+          },
+          {
+            "cardIndex": "2",
+            "cardNo": "6446********4442"
+          },
+          {
+            "cardIndex": "3",
+            "cardNo": "6446********4463"
+          },
+          {
+            "cardIndex": "4",
+            "cardNo": "6446********4464"
+          }
+        ],
+        "instList1": [
+          {
+            "feeRate": "0.03",
+            "firstAmt": "6510.00",
+            "instNum": "3",
+            "perAmt": "10266.00",
+            "perPoundage": "1030",
+            "taotalPoundage": "200"
+          },
+          {
+            "feeRate": "0.04",
+            "firstAmt": "4102.00",
+            "instNum": "6",
+            "perAmt": "5201.00",
+            "perPoundage": "1010",
+            "taotalPoundage": "200"
+          },
+          {
+            "feeRate": "0.07",
+            "firstAmt": "2000.00",
+            "instNum": "12",
+            "perAmt": "2289.00",
+            "perPoundage": "1020",
+            "taotalPoundage": "200"
+          },
+          {
+            "feeRate": "0.09",
+            "firstAmt": "1549.00",
+            "instNum": "24",
+            "perAmt": "1400.00",
+            "perPoundage": "1030",
+            "taotalPoundage": "2100"
+          }
+        ],
+        "instList": [
+          {
+            "discountType": "P",
+            "firstAmt": "1002.95",
+            "instFeeDscnt": "0.81",
+            "instFeeRate": "0.83",
+            "instNum": "9",
+            "perAmt": "1002.25",
+            "perAmtDetail": {},
+            "perPoundage": "15.95",
+            "totalPoundage": "143.55",
+            "waiveFeeAmt": "10.00"
+          },
+          {
+            "discountType": "D",
+            "firstAmt": "1002.95",
+            "instFeeDscnt": "0.81",
+            "instFeeRate": "0.83",
+            "instNum": "9",
+            "perAmt": "1002.25",
+            "perAmtDetail": {},
+            "perPoundage": "15.95",
+            "totalPoundage": "143.55",
+            "waiveFeeAmt": "10.00"
+          },
+          {
+            "discountType": "P",
+            "firstAmt": "1002.95",
+            "instFeeDscnt": "0.81",
+            "instFeeRate": "0.83",
+            "instNum": "9",
+            "perAmt": "1002.25",
+            "perAmtDetail": {},
+            "perPoundage": "15.95",
+            "totalPoundage": "143.55",
+            "waiveFeeAmt": "10.00"
+          },
+          {
+            "discountType": "P",
+            "firstAmt": "1002.95",
+            "instFeeDscnt": "0.81",
+            "instFeeRate": "0.83",
+            "instNum": "9",
+            "perAmt": "1002.25",
+            "perAmtDetail": {},
+            "perPoundage": "15.95",
+            "totalPoundage": "143.55",
+            "waiveFeeAmt": "10.00"
+          }
+        ],
+        "debitCardList":[
+          {
+            "msCardNo":"61115588****87871",
+            "cardIndex":"232321421421"
+          },
+          {
+            "msCardNo":"61115588****87872",
+            "cardIndex":"5125614142"
+          },
+          {
+            "msCardNo":"61115588****87873",
+            "cardIndex":"52132161112461"
+          },
+          {
+            "msCardNo":"61115588****87874",
+            "cardIndex":"965452452554"
+          }
+        ],
+        "validMoney": "30000"
+      },
+      "code": "0",
+      "message": "系统异常，请重试"
+    },
+    "url": "/rest/pabank/creditcard/slh/checkAgilityMoneyRight"
+  },
+  {
+    "method": "post",
+    "response": {
+      "body": {
+        "cardList": [
+          {
+            "cardIndex": "1",
+            "cardNo": "6446********4461"
+          },
+          {
+            "cardIndex": "2",
+            "cardNo": "6446********4442"
+          },
+          {
+            "cardIndex": "3",
+            "cardNo": "6446********4463"
+          },
+          {
+            "cardIndex": "4",
+            "cardNo": "6446********4464"
+          }
+        ],
+        "instList1": [
+          {
+            "feeRate": "0.03",
+            "firstAmt": "6510.00",
+            "instNum": "3",
+            "perAmt": "10266.00",
+            "perPoundage": "1030",
+            "taotalPoundage": "200"
+          },
+          {
+            "feeRate": "0.04",
+            "firstAmt": "4102.00",
+            "instNum": "6",
+            "perAmt": "5201.00",
+            "perPoundage": "1010",
+            "taotalPoundage": "200"
+          },
+          {
+            "feeRate": "0.07",
+            "firstAmt": "2000.00",
+            "instNum": "12",
+            "perAmt": "2289.00",
+            "perPoundage": "1020",
+            "taotalPoundage": "200"
+          },
+          {
+            "feeRate": "0.09",
+            "firstAmt": "1549.00",
+            "instNum": "24",
+            "perAmt": "1400.00",
+            "perPoundage": "1030",
+            "taotalPoundage": "2100"
+          }
+        ],
+        "instList": [
+          {
+            "discountType": "P",
+            "firstAmt": "1002.95",
+            "instFeeDscnt": "0.81",
+            "instFeeRate": "0.83",
+            "instNum": "9",
+            "perAmt": "1002.25",
+            "perAmtDetail": {},
+            "perPoundage": "15.95",
+            "totalPoundage": "143.55",
+            "waiveFeeAmt": "10.00"
+          },
+          {
+            "discountType": "D",
+            "firstAmt": "1002.95",
+            "instFeeDscnt": "0.81",
+            "instFeeRate": "0.83",
+            "instNum": "9",
+            "perAmt": "1002.25",
+            "perAmtDetail": {},
+            "perPoundage": "15.95",
+            "totalPoundage": "143.55",
+            "waiveFeeAmt": "10.00"
+          },
+          {
+            "discountType": "P",
+            "firstAmt": "1002.95",
+            "instFeeDscnt": "0.81",
+            "instFeeRate": "0.83",
+            "instNum": "9",
+            "perAmt": "1002.25",
+            "perAmtDetail": {},
+            "perPoundage": "15.95",
+            "totalPoundage": "143.55",
+            "waiveFeeAmt": "10.00"
+          },
+          {
+            "discountType": "P",
+            "firstAmt": "1002.95",
+            "instFeeDscnt": "0.81",
+            "instFeeRate": "0.83",
+            "instNum": "9",
+            "perAmt": "1002.25",
+            "perAmtDetail": {},
+            "perPoundage": "15.95",
+            "totalPoundage": "143.55",
+            "waiveFeeAmt": "10.00"
+          }
+        ]
+      },
+      "code": "0",
+      "message": "系统异常，请重试"
+    },
+    "url": "/rest/pabank/creditcard/slh/getBillDifferentiation"
+  },
+  {
+    "method": "post",
+    "response": {
+      "body": {
+        "branchList": [
+          {
+            "unionBankCode": "001",
+            "subBranchBankName": "第一支行"
+          },
+          {
+            "unionBankCode": "002",
+            "subBranchBankName": "第2支行"
+          },
+          {
+            "unionBankCode": "003",
+            "subBranchBankName": "第3支行"
+          },
+          {
+            "unionBankCode": "004",
+            "subBranchBankName": "第4支行"
+          },
+          {
+            "unionBankCode": "005",
+            "subBranchBankName": "第5支行"
+          }
+        ]
+      },
+      "code": "0",
+      "message": "系统异常，请重试"
+    },
+    "url": "/rest/pabank/creditcard/slh/getBranchOfCity"
+  },
+  {
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "系统异常，请重试"
+    },
+    "url": "/rest/pabank/creditcard/slh/AgilityMoneyApplication"
+  },
+  {
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "mannual": "N",
+        "result": "1",
+        "quoAdjTyp": "1",
+        "mostQuote": "1000000",
+        "timeLimite": "2016.07.12",
+        "isView": "Y",
+        "tempLimit": "0",
+        "reasonMsg": "6",
+        "viewFlag": "0"
+      }
+    },
+    "url": "/rest/pabank/creditcard/slh/getFixedAmount"
+  },
+  {
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "limit": "500000",
+        "availableLimit": "20000",
+        "cashLimit": "30000"
+      }
+    },
+    "url": "/rest/pabank/creditcard/slh/improveFixedLimit"
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/setTempLimit",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/reduceFixedLimit",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+        "limit": "500000",
+        "availableLimit": "20000",
+        "cashLimit": "30000"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/notRealTimeAdjustLimit",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "注册成功",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/queryLimitInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "success",
+      "body": {
+        "currentLogo": "231313",
+        "availableLimit": "20000",
+        "cashLimit": "10000",
+        "limit": "20000",
+        "accountList": [
+          {
+            "accountNo": "7898********6928",
+            "accountNoIndex": "781000224",
+            "acctLogoDesc": "个人信用卡",
+            "logo": "998",
+            "availableLimit": "3500",
+            "cashLimit": "20.0",
+            "limit": "20500",
+            "currentLogo": "996",
+            "fixCrlim": "20500",
+            "tempCrlim": "2000",
+            "tempCrlimExpr": "2017.08.12",
+            "displayDollar": "Yes",
+            "limitToDollar": "3000",
+            "availableLimitToDollar": "2001",
+            "cashLimitToDollar": "3003",
+            "fixCrlimToDollar": "3005"
+          },
+          {
+            "accountNo": "2998********6928",
+            "accountNoIndex": "691000224",
+            "acctLogoDesc": "个人",
+            "logo": "996",
+            "availableLimit": "10022.49",
+            "cashLimit": "202.0",
+            "limit": "1000330",
+            "currentLogo": "996",
+            "fixCrlim": "200400",
+            "tempCrlimExpr": "2017.08.12",
+            "displayDollar": "Yes",
+            "limitToDollar": "3000",
+            "availableLimitToDollar": "2001",
+            "cashLimitToDollar": "3003",
+            "fixCrlimToDollar": "3005"
+          }
+        ]
+
+      }
+    }
+  },
+  {
+  "url": "/rest/pabank/logout/platinumCardImg/getAdInfo",
+  "method": "post",
+  "response": {
+    "code": "0",
+    "message": "注册成功",
+    "body": {
+      "adList":[
+        {
+          "imgUrl": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1498549345&di=458f573ae8cb9c80143f13988a9c610a&src=http://pic.58pic.com/58pic/11/30/21/40558PIC2VU.jpg",
+          "linkUrl": "https://image.baidu.com/"
+        },
+        {
+          "imgUrl": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1498549345&di=458f573ae8cb9c80143f13988a9c610a&src=http://pic.58pic.com/58pic/11/30/21/40558PIC2VU.jpg",
+          "linkUrl": "https://image.baidu.com/"
+        }
+      ]
+    }
+  }
+},
+  {
+  "url": "/rest/pabank/creditcard/slh/getMultiChannelBorrowingInfo",
+  "method": "post",
+  "response": {
+    "code": "0",
+    "message": "操作成功",
+    "body": {
+      "beiYongJinApplyStatus":"Y",
+      "lingYongJinApplyStatus":"Y",
+      "youXiangJinApplyStatus":"Y"
+    }
+  }
+},
+  {
+    "url": "/rest/common/activities/getOpeningStateFlag",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "操作成功",
+      "body": "1"
+    }
+  },
+  {
+    "url": "/ccms-cs/cust/ccms-cs-product.queryAutomatic",
+    "method": "post",
+    "response": {
+      "code": "1001",
+      "message": "账户自动分期查询",
+      "body": {
+        "floorAmt": "1000",
+        "instType": "1",
+        "effDate": "2017-08-23",
+        "endDate": "2017-09-23",
+        "txnTerm": "12",
+        "feeRate": "0.6%",
+        "status": "3"
+      }
+    }
+  },
+  {
+    "url": "/cust/ccms-cs-product.queryDisBillFee",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "定价查询系统",
+      "body": {
+        "dataList": [{
+          "instProdCode": "1",
+          "instTerm": "6",
+          "instFeeRate": "0.40%"
+        },{
+          "instProdCode": "2",
+          "instTerm": "8",
+          "instFeeRate": "0.35%"
+        },{
+          "instProdCode": "3",
+          "instTerm": "12",
+          "instFeeRate": "0.32%"
+        }]
+      }
+    }
+  },
+  {
+    "url": "/cust/ccms-cs-product.addAutomaticStageBill",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "账单分期成功",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getSingleStageInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "单笔分期初始化接口",
+      "body": {
+        "singleList": [
+          {
+            "cardHash": null,
+            "lastCardNo": "1255",
+            "merId": "104290054114701",
+            "msCardNo": "5316********1255",
+            "org": "242",
+            "postAmount": "500.00",
+            "postDate": "20190929",
+            "referNo": "C192520001000010000433",
+            "tranDate": "09-08",
+            "transFlag": "C",
+            "txnDesc": "上海欧尚超市有限公司长阳店"
+          },
+          {
+            "cardHash": null,
+            "lastCardNo": "1255",
+            "merId": "104290054114706",
+            "msCardNo": "5316********1255",
+            "org": "242",
+            "postAmount": "200.00",
+            "postDate": "20190929",
+            "referNo": "C192520001000010000432",
+            "tranDate": "09-08",
+            "transFlag": "C",
+            "txnDesc": "上海欧尚超市有限公司长阳店"
+          },
+          {
+            "cardHash": null,
+            "lastCardNo": "1255",
+            "merId": "104290054114706",
+            "msCardNo": "5316********1255",
+            "org": "242",
+            "postAmount": "20.00",
+            "postDate": "20190929",
+            "referNo": "C192520001000010000432",
+            "tranDate": "09-08",
+            "transFlag": "C",
+            "txnDesc": "上海欧尚超市有限公司长阳店"
+          },
+          {
+            "cardHash": null,
+            "lastCardNo": "1255",
+            "merId": "104290054114706",
+            "msCardNo": "5316********1255",
+            "org": "242",
+            "postAmount": "4325.43",
+            "postDate": "20190929",
+            "referNo": "C192520001000010000432",
+            "tranDate": "09-08",
+            "transFlag": "C",
+            "txnDesc": "上海欧尚超市有限公司长阳店"
+          },
+          {
+            "cardHash": null,
+            "lastCardNo": "1255",
+            "merId": "000000000000000",
+            "msCardNo": "5316********1255",
+            "org": "242",
+            "postAmount": "2000000000.00",
+            "postDate": "20190929",
+            "referNo": "C192520001000010000431",
+            "tranDate": "09-08",
+            "transFlag": "C",
+            "txnDesc": "消费"
+          }
+        ],
+        "accountList": [
+          {
+            "accountIndex": 807535846,
+            "accKey": "998",
+            "cardList": [
+              {
+                "cardLogo": "909",
+                "realCardNo": "5316599999931255"
+              }
+            ],
+            "accountNo": "2998********5847",
+            "acctLogoDesc": "个人信用卡"
+          },
+          {
+            "accountIndex": 807535847,
+            "accKey": "998",
+            "cardList": [
+              {
+                "cardLogo": "909",
+                "realCardNo": "5316599999931255"
+              }
+            ],
+            "accountNo": "2998********5847",
+            "acctLogoDesc": "大润发卡"
+          },
+          {
+            "accountIndex": 807535848,
+            "accKey": "998",
+            "cardList": [
+              {
+                "cardLogo": "909",
+                "realCardNo": "5316599999931255"
+              }
+            ],
+            "accountNo": "2998********5847",
+            "acctLogoDesc": "百夫长卡"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getSingleFeeInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "单笔分期主页面",
+      "body": {
+        "instList": [
+          {
+            "applyAmt": "5000.00",
+            "cardScc": "5180",
+            "couponShowList": [
+              {
+                "couponName": "账单分期",
+                "couponNo": "201710110000000029",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-10000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "Y",
+                "useRange": "单笔分期,分期金额100-10000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-26",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "账单分期折扣券",
+                "couponNo": "201710110000000033",
+                "discountcPercent": "83",
+                "discountcType": "P",
+                "installmentAmt": "100-5000",
+                "rebate": "8.3",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "Y",
+                "useRange": "单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "减免期数折扣券",
+                "couponNo": "201710110000000035",
+                "discountcPercent": "0",
+                "discountcType": "T",
+                "installmentAmt": "100-5000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "Y",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "2"
+              },
+              {
+                "couponName": "账单分期减免固定金额",
+                "couponNo": "201710110000000057",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-10000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "Y",
+                "useRange": "单笔分期,分期金额100-10000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-31",
+                "waiverAmt": "30",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "单分减免金额",
+                "couponNo": "201710110000000031",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-5000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "Y",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              }
+            ],
+            "discFeeRate": "100",
+            "discPoundage": "127.50",
+            "discountAmount": "5",
+            "discountType": "M",
+            "firstAmt": "1709.18",
+            "instCustType": "",
+            "instFeeCalT1": "T",
+            "instFeeCalT2": "P",
+            "instFeeDscnt": "0.85",
+            "instFeeDscntSubmit": "100",
+            "instFeeRate": "0.85",
+            "instFeeRateSubmit": "85",
+            "instFeeSch": "E",
+            "instFeeTrmWaive": "3",
+            "instNum": "3",
+            "perAmt": "1709.16",
+            "perAmtDetail": [
+              "1666.68",
+              "1666.66",
+              "1666.66"
+            ],
+            "perPoundage": "42.50",
+            "productCode": "6100203",
+            "promoFlag": "A",
+            "promoName": "期数优惠",
+            "promotype": "T",
+            "showFeeRate": "0.85",
+            "totalPoundage": "0.00",
+            "usageDescription": "5张可用",
+            "waiveFeeAmt": "234"
+          },
+          {
+            "applyAmt": "5000.00",
+            "cardScc": "5180",
+            "couponShowList": [
+              {
+                "couponName": "账单分期",
+                "couponNo": "201710110000000029",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-10000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "Y",
+                "useRange": "单笔分期,分期金额100-10000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-26",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "账单分期折扣券",
+                "couponNo": "201710110000000033",
+                "discountcPercent": "83",
+                "discountcType": "P",
+                "installmentAmt": "100-5000",
+                "rebate": "8.3",
+                "stagingInterval": "1-6",
+                "stagrceningProduct": "单笔分期",
+                "suitability": "Y",
+                "useRange": "单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "减免期数折扣券",
+                "couponNo": "201710110000000035",
+                "discountcPercent": "0",
+                "discountcType": "T",
+                "installmentAmt": "100-5000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "Y",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "2"
+              },
+              {
+                "couponName": "账单分期减免固定金额",
+                "couponNo": "201710110000000057",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-10000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "Y",
+                "useRange": "单笔分期,分期金额100-10000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-31",
+                "waiverAmt": "30",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "单分减免金额",
+                "couponNo": "201710110000000031",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-5000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "Y",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              }
+            ],
+            "discFeeRate": "100",
+            "discPoundage": "",
+            "discountAmount": "5",
+            "discountType": "N",
+            "firstAmt": "873.35",
+            "instCustType": "",
+            "instFeeCalT1": "T",
+            "instFeeCalT2": "P",
+            "instFeeDscnt": "0.80",
+            "instFeeDscntSubmit": "100",
+            "instFeeRate": "0.80",
+            "instFeeRateSubmit": "80",
+            "instFeeSch": "E",
+            "instFeeTrmWaive": "0",
+            "instNum": "6",
+            "perAmt": "873.33",
+            "perPoundage": "40.00",
+            "productCode": "6100206",
+            "promoFlag": "",
+            "promoName": "",
+            "promotype": "",
+            "showFeeRate": "0.80",
+            "totalPoundage": "240.00",
+            "usageDescription": "5张可用",
+            "waiveFeeAmt": "0"
+          },
+          {
+            "applyAmt": "5000.00",
+            "cardScc": "5180",
+            "couponShowList": [
+              {
+                "couponName": "账单分期",
+                "couponNo": "201710110000000029",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-10000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "N",
+                "useRange": "单笔分期,分期金额100-10000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-26",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "账单分期折扣券",
+                "couponNo": "201710110000000033",
+                "discountcPercent": "83",
+                "discountcType": "P",
+                "installmentAmt": "100-5000",
+                "rebate": "8.3",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "N",
+                "useRange": "单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "减免期数折扣券",
+                "couponNo": "201710110000000035",
+                "discountcPercent": "0",
+                "discountcType": "T",
+                "installmentAmt": "100-5000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "N",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "2"
+              },
+              {
+                "couponName": "减免期数折扣券",
+                "couponNo": "201710110000000035",
+                "discountcPercent": "0",
+                "discountcType": "T",
+                "installmentAmt": "100-5000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "N",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "2"
+              },
+              {
+                "couponName": "单分减免金额",
+                "couponNo": "201710110000000031",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-5000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "N",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              }
+            ],
+            "discFeeRate": "100",
+            "discPoundage": "",
+            "discountAmount": "0",
+            "discountType": "N",
+            "firstAmt": "454.24",
+            "instCustType": "",
+            "instFeeCalT1": "T",
+            "instFeeCalT2": "P",
+            "instFeeDscnt": "0.75",
+            "instFeeDscntSubmit": "100",
+            "instFeeRate": "0.75",
+            "instFeeRateSubmit": "75",
+            "instFeeSch": "E",
+            "instFeeTrmWaive": "0",
+            "instNum": "12",
+            "perAmt": "454.16",
+            "perPoundage": "37.50",
+            "productCode": "6100212",
+            "promoFlag": "",
+            "promoName": "",
+            "promotype": "",
+            "showFeeRate": "0.75",
+            "totalPoundage": "450.00",
+            "usageDescription": "0张可用",
+            "waiveFeeAmt": "0"
+          },
+          {
+            "applyAmt": "5000.00",
+            "cardScc": "5180",
+            "couponShowList": [
+              {
+                "couponName": "减免期数折扣券",
+                "couponNo": "201710110000000034",
+                "discountcPercent": "100",
+                "discountcType": "T",
+                "installmentAmt": "100-5000",
+                "rebate": "10.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "N",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "2"
+              },
+              {
+                "couponName": "单笔手续费打折",
+                "couponNo": "201710110000000036",
+                "discountcPercent": "88",
+                "discountcType": "P",
+                "installmentAmt": "100-50000",
+                "rebate": "8.8",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "N",
+                "useRange": "单笔分期,分期金额100-50000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "单笔分期折扣率",
+                "couponNo": "201710110000000038",
+                "discountcPercent": "0.8",
+                "discountcType": "P",
+                "installmentAmt": "100-10000",
+                "rebate": "0.08",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "N",
+                "useRange": "单笔分期,分期金额100-10000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "单分减免金额",
+                "couponNo": "201710110000000030",
+                "discountcPercent": "100",
+                "discountcType": "M",
+                "installmentAmt": "100-5000",
+                "rebate": "10.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "N",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "折扣券1",
+                "couponNo": "201709270000000006",
+                "discountcPercent": "100",
+                "discountcType": "T",
+                "installmentAmt": "600-20000",
+                "rebate": "10.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "N",
+                "useRange": "账单分期，单笔分期,分期金额600-20000,分期期数1-6",
+                "useTime": "2017-09-26至2017-12-31",
+                "waiverAmt": "0",
+                "waiverCount": "1"
+              }
+            ],
+            "discFeeRate": "100",
+            "discPoundage": "5.00",
+            "discountAmount": "0",
+            "discountType": "P",
+            "feeRate": null,
+            "firstAmt": "1261.13",
+            "instCustType": "",
+            "instFeeCalT1": "T",
+            "instFeeCalT2": "P",
+            "instFeeDscnt": "0.75",
+            "instFeeDscntSubmit": "100",
+            "instFeeRate": "0.75",
+            "instFeeRateSubmit": "75",
+            "instFeeSch": "E",
+            "instFeeTrmWaive": "0",
+            "instNum": "18",
+            "originalDiscFeeRate": null,
+            "perAmt": "1261.11",
+            "perAmtDetail": [
+              "1256.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11",
+              "1261.11"
+            ],
+            "perPoundage": "150.00",
+            "productCode": "6100218",
+            "promoFlag": "A",
+            "promoName": "金额减免",
+            "promotype": "M",
+            "referNum": null,
+            "showFeeRate": "0.75",
+            "totalPoundage": "2695.00",
+            "usageDescription": "0张可用",
+            "waiveFeeAmt": "5"
+          },
+          {
+            "applyAmt": "5000.00",
+            "cardScc": "5180",
+            "couponShowList": [
+              {
+                "couponName": "账单分期",
+                "couponNo": "201710110000000029",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-10000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "N",
+                "useRange": "单笔分期,分期金额100-10000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-26",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "账单分期折扣券",
+                "couponNo": "201710110000000033",
+                "discountcPercent": "83",
+                "discountcType": "P",
+                "installmentAmt": "100-5000",
+                "rebate": "8.3",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "N",
+                "useRange": "单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "账单分期折扣券",
+                "couponNo": "201710110000000033",
+                "discountcPercent": "83",
+                "discountcType": "P",
+                "installmentAmt": "100-5000",
+                "rebate": "8.3",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "N",
+                "useRange": "单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "0",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "账单分期减免固定金额",
+                "couponNo": "201710110000000057",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-10000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "单笔分期",
+                "suitability": "N",
+                "useRange": "单笔分期,分期金额100-10000,分期期数1-6",
+                "useTime": "2017-10-10至2017-10-31",
+                "waiverAmt": "30",
+                "waiverCount": "0"
+              },
+              {
+                "couponName": "单分减免金额",
+                "couponNo": "201710110000000031",
+                "discountcPercent": "0",
+                "discountcType": "M",
+                "installmentAmt": "100-5000",
+                "rebate": "0.0",
+                "stagingInterval": "1-6",
+                "stagingProduct": "账单分期，单笔分期",
+                "suitability": "N",
+                "useRange": "账单分期，单笔分期,分期金额100-5000,分期期数1-6",
+                "useTime": "2017-10-09至2017-10-31",
+                "waiverAmt": "10",
+                "waiverCount": "0"
+              }
+            ],
+            "discFeeRate": "100",
+            "discPoundage": "",
+            "discountAmount": "0",
+            "discountType": "N",
+            "firstAmt": "244.41",
+            "instCustType": "",
+            "instFeeCalT1": "T",
+            "instFeeCalT2": "P",
+            "instFeeDscnt": "0.72",
+            "instFeeDscntSubmit": "100",
+            "instFeeRate": "0.72",
+            "instFeeRateSubmit": "72",
+            "instFeeSch": "E",
+            "instFeeTrmWaive": "0",
+            "instNum": "24",
+            "perAmt": "244.33",
+            "perPoundage": "36.00",
+            "productCode": "6100224",
+            "promoFlag": "",
+            "promoName": "",
+            "promotype": "",
+            "showFeeRate": "0.72",
+            "totalPoundage": "864.00",
+            "usageDescription": "0张可用",
+            "waiveFeeAmt": "0"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getSingleCouponInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "单笔分期折扣券计算接口",
+      "body": {
+        "modifyInfo": {
+          "applyAmt": "1234",
+          "instNum": "3",
+          "instFeeRate": "3.2",
+          "discountType": "P",
+          "perAmtDetail": [700,800,900,900,900,900],
+          "showFeeRate": "2.3",
+          "firstAmt": "2300",
+          "perAmt": "2500",
+          "totalPoundage": "100",
+          "discPoundage": "20",
+          "perPoundage": "54",
+          "waiveFeeAmt": "35",
+          "instFeeTrmWaive": "3",
+          "referNum": "23454365436"
+        }
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/submitSingleConsum",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "单笔分期提单申请接口",
+      "body": {
+        "orderNo": "1234"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/billMonthStageInit",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "账单分期主页面",
+      "body": {
+        "status": "1",
+        "stageSumMax": "10000.00",
+        "stageSumMin": "100.00",
+        "billMonth": "201707",
+        "cardNo": "xxxxxxxx",
+        "accountNo": "个人信用卡",
+        "accountNoIndex": "axaxaxaxax",
+        "accountList": [{
+          "logo": "1111111111",
+          "accLogoDesc": "个人信用卡",
+          "accountNo": "xxxxxxxx",
+          "accountNoIndex": "axaxaxaxax",
+          "isDoubleCurr": "0"
+        },{
+          "logo": "222222222",
+          "accLogoDesc": "平安卡",
+          "accountNo": "yyyyyyyy",
+          "accountNoIndex": "bybybybybyby",
+          "isDoubleCurr": "0"
+        },{
+          "logo": "3333333333",
+          "accLogoDesc": "大润发卡",
+          "accountNo": "xxxxxxxx",
+          "accountNoIndex": "cxcxcxcxcx",
+          "isDoubleCurr": "1"
+        }],
+        "stageList": [{
+          "stageNum": "6",
+          "discountType": "N",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": [],
+          "totalPoundage": "100.00",
+          "couponNum": "0",
+          "couponList": [],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        },{
+          "stageNum": "9",
+          "discountType": "N",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": [],
+          "totalPoundage": "100.00",
+          "couponNum": "0",
+          "couponList": [{
+            "couponName": "手续费直减300元",
+            "couponNo": "001",
+            "discountType": "M",
+            "discountValue": "300",
+            "useTerm": "2017/01/01-2017/03/31",
+            "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+            "isValid": "1"
+          },
+            {
+              "couponName": "分期手续费7折",
+              "couponNo": "002",
+              "discountType": "P",
+              "discountValue": "7",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            },
+            {
+              "couponName": "减免3期手续费",
+              "couponNo": "003",
+              "discountType": "T",
+              "discountValue": "3",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            },
+            {
+              "couponName": "减免5期手续费",
+              "couponNo": "004",
+              "discountType": "T",
+              "discountValue": "5",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            }],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        },{
+          "stageNum": "12",
+          "discountType": "N",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": [],
+          "totalPoundage": "100.00",
+          "couponNum": "3",
+          "couponList": [{
+            "couponName": "手续费直减300元",
+            "couponNo": "001",
+            "discountType": "M",
+            "discountValue": "300",
+            "useTerm": "2017/01/01-2017/03/31",
+            "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+            "isValid": "0"
+          },
+            {
+              "couponName": "分期手续费7折",
+              "couponNo": "002",
+              "discountType": "P",
+              "discountValue": "7",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免3期手续费",
+              "couponNo": "003",
+              "discountType": "T",
+              "discountValue": "3",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免5期手续费",
+              "couponNo": "004",
+              "discountType": "T",
+              "discountValue": "5",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            }],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        },{
+          "stageNum": "15",
+          "discountType": "N",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": [],
+          "totalPoundage": "100.00",
+          "couponNum": "3",
+          "couponList": [{
+            "couponName": "手续费直减300元",
+            "couponNo": "001",
+            "discountType": "M",
+            "discountValue": "300",
+            "useTerm": "2017/01/01-2017/03/31",
+            "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+            "isValid": "0"
+          },
+            {
+              "couponName": "分期手续费7折",
+              "couponNo": "002",
+              "discountType": "P",
+              "discountValue": "7",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免3期手续费",
+              "couponNo": "003",
+              "discountType": "T",
+              "discountValue": "3",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免5期手续费",
+              "couponNo": "004",
+              "discountType": "T",
+              "discountValue": "5",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            }],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        },{
+          "stageNum": "18",
+          "discountType": "M",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": ["20","30","30","30"],
+          "totalPoundage": "100.00",
+          "couponNum": "3",
+          "couponList": [{
+            "couponName": "手续费直减300元",
+            "couponNo": "001",
+            "discountType": "M",
+            "discountValue": "300",
+            "useTerm": "2017/01/01-2017/03/31",
+            "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+            "isValid": "0"
+          },
+            {
+              "couponName": "分期手续费7折",
+              "couponNo": "002",
+              "discountType": "P",
+              "discountValue": "7",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免3期手续费",
+              "couponNo": "003",
+              "discountType": "T",
+              "discountValue": "3",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免5期手续费",
+              "couponNo": "004",
+              "discountType": "T",
+              "discountValue": "5",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            }],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        }]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/billMonthStageGet",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "分期详细计算",
+      "body": {
+        "status": "1",
+        "stageSumMax": "10000.00",
+        "stageSumMin": "100.00",
+        "billMonth": "201707",
+        "cardNo": "xxxxxxxx",
+        "accountNo": "个人信用卡",
+        "accountNoIndex": "axaxaxaxax",
+        "accountList": [{
+          "logo": "1111111111",
+          "accLogoDesc": "个人信用卡",
+          "accountNo": "xxxxxxxx",
+          "accountNoIndex": "axaxaxaxax",
+          "isDoubleCurr": "0"
+        },{
+          "logo": "222222222",
+          "accLogoDesc": "平安卡",
+          "accountNo": "yyyyyyyy",
+          "accountNoIndex": "bybybybybyby",
+          "isDoubleCurr": "0"
+        },{
+          "logo": "3333333333",
+          "accLogoDesc": "大润发卡",
+          "accountNo": "xxxxxxxx",
+          "accountNoIndex": "cxcxcxcxcx",
+          "isDoubleCurr": "1"
+        }],
+        "stageList": [{
+          "stageNum": "6",
+          "discountType": "N",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": [],
+          "totalPoundage": "100.00",
+          "couponNum": "0",
+          "couponList": [],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        },{
+          "stageNum": "9",
+          "discountType": "N",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": [],
+          "totalPoundage": "100.00",
+          "couponNum": "0",
+          "couponList": [{
+            "couponName": "手续费直减300元",
+            "couponNo": "001",
+            "discountType": "M",
+            "discountValue": "300",
+            "useTerm": "2017/01/01-2017/03/31",
+            "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+            "isValid": "1"
+          },
+            {
+              "couponName": "分期手续费7折",
+              "couponNo": "002",
+              "discountType": "P",
+              "discountValue": "7",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            },
+            {
+              "couponName": "减免3期手续费",
+              "couponNo": "003",
+              "discountType": "T",
+              "discountValue": "3",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            },
+            {
+              "couponName": "减免5期手续费",
+              "couponNo": "004",
+              "discountType": "T",
+              "discountValue": "5",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            }],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        },{
+          "stageNum": "12",
+          "discountType": "N",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": [],
+          "totalPoundage": "100.00",
+          "couponNum": "3",
+          "couponList": [{
+            "couponName": "手续费直减300元",
+            "couponNo": "001",
+            "discountType": "M",
+            "discountValue": "300",
+            "useTerm": "2017/01/01-2017/03/31",
+            "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+            "isValid": "0"
+          },
+            {
+              "couponName": "分期手续费7折",
+              "couponNo": "002",
+              "discountType": "P",
+              "discountValue": "7",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免3期手续费",
+              "couponNo": "003",
+              "discountType": "T",
+              "discountValue": "3",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免5期手续费",
+              "couponNo": "004",
+              "discountType": "T",
+              "discountValue": "5",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            }],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        },{
+          "stageNum": "15",
+          "discountType": "N",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": [],
+          "totalPoundage": "100.00",
+          "couponNum": "3",
+          "couponList": [{
+            "couponName": "手续费直减300元",
+            "couponNo": "001",
+            "discountType": "M",
+            "discountValue": "300",
+            "useTerm": "2017/01/01-2017/03/31",
+            "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+            "isValid": "0"
+          },
+            {
+              "couponName": "分期手续费7折",
+              "couponNo": "002",
+              "discountType": "P",
+              "discountValue": "7",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免3期手续费",
+              "couponNo": "003",
+              "discountType": "T",
+              "discountValue": "3",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免5期手续费",
+              "couponNo": "004",
+              "discountType": "T",
+              "discountValue": "5",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            }],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        },{
+          "stageNum": "18",
+          "discountType": "M",
+          "instFeeRate": "0.42",
+          "instFeeDscnt": "0.41",
+          "perAmtDetail": ["20","30","40","50","20","20","20","20","20","20","20","20","20"],
+          "totalPoundage": "100.00",
+          "couponNum": "3",
+          "couponList": [{
+            "couponName": "手续费直减300元",
+            "couponNo": "001",
+            "discountType": "M",
+            "discountValue": "300",
+            "useTerm": "2017/01/01-2017/03/31",
+            "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+            "isValid": "0"
+          },
+            {
+              "couponName": "分期手续费7折",
+              "couponNo": "002",
+              "discountType": "P",
+              "discountValue": "7",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免3期手续费",
+              "couponNo": "003",
+              "discountType": "T",
+              "discountValue": "3",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "0"
+            },
+            {
+              "couponName": "减免5期手续费",
+              "couponNo": "004",
+              "discountType": "T",
+              "discountValue": "5",
+              "useTerm": "2017/01/01-2017/03/31",
+              "useScope": "账单分期,单笔消费分期,分期金额10000元以上,分期期数12期以上",
+              "isValid": "1"
+            }],
+          "preInstFeeRate": "0.45",
+          "firstCash": "300.00",
+          "perPostCash": "253.00",
+          "instFeeAndPerCash": "13.00",
+          "waiveFeeAmt": "50.00",
+          "deratenum": "3"
+        }]
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/billMonthStageSubmit",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "分期提交",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/checkSelfInfo",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "卡片成功，可以提交",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/ccms-ma/cust/pabank/ma/hongbao188/checkAvaliable",
+    "method": "post",
+    "response": {
+      "code": "000000",
+      "message": "分期提交",
+      "body": {
+        "dateFlag": "1",
+        "displayFlag": "1",
+        "invalidFlag": "0",
+        "invalidReason": "名额已满"
+      }
+    }
+ },
+  {
+    "url": "/ccms-cs/cust/ccms-cs-kpgl.getAcctAndCardLi",
+    "method": "post",
+    "response": {
+      "code": "000",
+      "message": "一键挂失查询卡账户",
+      "body": {
+        "cardList": [{
+          "cardNoMask": "200000*******1111232424",
+          "cardNoIndex": "123",
+          "ammount": "111"
+        },{
+          "cardNoMask": "887730*******3435353666",
+          "cardNoIndex": "456",
+          "ammount": "520"
+        },{
+          "cardNoMask": "343555*******2342342342",
+          "cardNoIndex": "789",
+          "ammount": "250"
+        }],
+        "accountList": [{
+          "accountNoMask": "aaa",
+          "accountNoIndex": "111",
+          "accountType": "个人信用卡",
+          "cardType": "big"
+        },{
+          "accountNoMask": "bbb",
+          "accountNoIndex": "222",
+          "accountType": "巴啦啦小魔仙卡",
+          "cardType": "small"
+        },{
+          "accountNoMask": "ccc",
+          "accountNoIndex": "333",
+          "accountType": "古娜拉黑暗卡",
+          "cardType": "cute"
+        },{
+          "accountNoMask": "ddd",
+          "accountNoIndex": "444",
+          "accountType": "迪迦奥特曼卡",
+          "cardType": "long"
+        },{
+          "accountNoMask": "eee",
+          "accountNoIndex": "555",
+          "accountType": "赛罗奥特曼卡",
+          "cardType": "short"
+        },{
+          "accountNoMask": "fff",
+          "accountNoIndex": "666",
+          "accountType": "哆啦A梦卡之快乐的机器猫",
+          "cardType": "smart"
+        }],
+        "mobileNoMask": "123****2345"
+      }
+    }
+  },
+  {
+    "url": "/ccms-cs/cust/ccms-cs-kpgl.setCardLostInfo",
+    "method": "post",
+    "response": {
+      "code": "000",
+      "message": "一键挂失提交成功",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/ccms-cs/cust/ccms-cs-common.generateOTP",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "一键挂失获取动态码",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/ccms-cs/cust/ccms-cs-kpgl.repairCard",
+    "method": "post",
+    "response": {
+      "code": "000",
+      "message": "一键挂失按照原账单地址补卡",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/ccms-cs/cust/ccms-cs-kpgl.modAddRepairCard",
+    "method": "post",
+    "response": {
+      "code": "000",
+      "message": "一键挂失修改账单地址补卡",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/ccms-life/cust/pabank/ad/getAccurateAds",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "分期提交",
+      "body": [{
+        "ads": [{
+          "imgUrl": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=235060968,3786003281&fm=173&s=6E83DA06BD892E47017CDCA303006001&w=218&h=146&img.JPEG",
+          "actionUrl": "https://b.pingan.com/bank/youhui/q2/znhk0515/index.shtml?source= xyk_app&outerSource= yjhk_banner&channel_source= 11-00077-05123-01-08"
+        }]
+      }
+      ]
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getLinkPersons",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "联系人信息查询",
+      "body": {
+        "directName": "胡*",
+        "directType": "母女",
+        "directMobile": "132****0836",
+        "directPhone": "021-3888****",
+        "otherName": "万**",
+        "otherMobile": "182****9485",
+        "otherPhone": "021-3863****"
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/setLinkPerson",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "联系人信息修改",
+      "body": {
+      }
+    }
+  },
+  {
+    "url": "/rest/pabank/creditcard/slh/getLinkRelationDataDictIter",
+    "method": "post",
+    "response": {
+      "code": "0",
+      "message": "联系人信息修改",
+      "body": {
+        "dataList": [
+          {
+            "dataCode": "001",
+            "dataName": "朋友"
+          },
+          {
+            "dataCode": "002",
+            "dataName": "母女"
+          },
+          {
+            "dataCode": "003",
+            "dataName": "兄弟"
+          },
+          {
+            "dataCode": "004",
+            "dataName": "姐弟"
+          },
+          {
+            "dataCode": "005",
+            "dataName": "同事"
+          }
+        ]
+      }
+    }
+  }
+]
